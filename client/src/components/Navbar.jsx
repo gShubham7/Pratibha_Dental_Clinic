@@ -19,7 +19,7 @@ import {
   HamburgerIcon,
   CloseIcon,
   ChevronDownIcon,
-//   ChevronRightIcon,
+  //   ChevronRightIcon,
   MoonIcon,
   SunIcon,
 } from "@chakra-ui/icons";
@@ -256,6 +256,7 @@ const NAV_ITEMS = [
   },
   {
     label: "Treatments",
+    to: "/treatments",
     children: [
       {
         label: "Pain Relief",
