@@ -1,6 +1,5 @@
-import { HStack, SimpleGrid } from "@chakra-ui/react";
+import { SimpleGrid } from "@chakra-ui/react";
 import React from "react";
-import Card from "../../components/Card";
 import TreatmentCard from "../../components/TreatmentCard";
 import Banner from "../../components/Treatments/Banner";
 import { banner_data, card_data } from "../../data";
@@ -13,7 +12,7 @@ const PainRelief = () => {
         columns={{ base: 1, md: 3 }}
         justifyItems="center"
         spacingX="40px"
-        spacingY="20px"
+        spacingY="60px"
         // bgColor={"bisque"}
         p={10}
       >

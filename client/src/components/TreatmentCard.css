@@ -1,19 +1,16 @@
 .flip-card {
   background-color: transparent;
-  width: 254px;
-  height: 254px;
+  width: 200px;
+  height: 200px;
   perspective: 1000px;
   font-family: sans-serif;
 }
 
 .title {
-  font-size: 1.5em;
-  font-weight: 900;
+  /* font-size: 1.5em; */
+  /* font-weight: 900; */
   text-align: center;
   margin: 0;
-}
-.sub {
-  font-size: 1em;
 }
 
 .flip-card-inner {
@@ -55,7 +52,7 @@
       /* rgb(114,204,215,0.603) 48% */
   );
   background-color: rgb(20, 86, 96);
-  color: coral;
+  color: white;
 }
 
 .flip-card-back {
@@ -65,7 +62,15 @@
   transform: rotateY(180deg);
 }
 
-img{
-    width: 50%;
-    margin-left: 60px;
+.flex-div {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  justify-content: center;
+}
+
+.heading {
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
 }

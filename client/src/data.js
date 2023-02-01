@@ -136,16 +136,19 @@ export const faq = {
 
 export const card_data = [
   {
+    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
     title: "Root Canal Treatment",
     description:
       "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
   },
   {
+    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
     title: "Wisdom Tooth Removal",
     description:
       "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
   },
   {
+    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
     title: "Jaw Pain",
     description:
       "Jaw disorders are a family of problems related to your complex jaw joint.",

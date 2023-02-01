@@ -12,7 +12,7 @@ const Banner = ({ data }) => {
       p={25}
       w="full"
       alignItems="center"
-      justifyContent="center"     
+      justifyContent="center"
     >
       <Box
         bg="white"
@@ -34,6 +34,7 @@ const Banner = ({ data }) => {
         rounded={{
           lg: "lg",
         }}
+        mt={"24"}
       >
         <Box
           w={{
