@@ -256,7 +256,6 @@ const NAV_ITEMS = [
   },
   {
     label: "Treatments",
-    to: "/treatments",
     children: [
       {
         label: "Pain Relief",
