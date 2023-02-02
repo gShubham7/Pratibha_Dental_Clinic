@@ -34,7 +34,7 @@ const Banner = ({ data }) => {
         rounded={{
           lg: "lg",
         }}
-        mt={"24"}
+        // mt={"24"}
       >
         <Box
           w={{

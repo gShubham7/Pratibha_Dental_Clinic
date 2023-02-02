@@ -43,9 +43,9 @@ export default function Navbar() {
         borderStyle={"solid"}
         borderColor={useColorModeValue("gray.200", "gray.900")}
         align={"center"}
-        position="fixed"
+        // position="fixed"
         w={"full"}
-        zIndex="1"     
+        // zIndex="1"     
       >
         <Flex
           flex={{ base: 1, md: "auto" }}

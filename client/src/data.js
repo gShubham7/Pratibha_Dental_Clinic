@@ -154,3 +154,18 @@ export const card_data = [
       "Jaw disorders are a family of problems related to your complex jaw joint.",
   },
 ];
+
+export const promise_card_data = [
+  {
+    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+    title: "Experienced Dentists",
+  },
+  {
+    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+    title: "Personalised Care",
+  },
+  {
+    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+    title: "Transparent Pricing",
+  },
+];
