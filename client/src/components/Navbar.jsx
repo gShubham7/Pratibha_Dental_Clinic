@@ -37,7 +37,7 @@ export default function Navbar() {
         boxShadow="lg"
         rounded="md"
         minH={"60px"}
-        py={{ base: 5 }}     
+        py={{ base: 5 }}
         px={{ base: 4 }}
         borderBottom={1}
         borderStyle={"solid"}
@@ -45,12 +45,12 @@ export default function Navbar() {
         align={"center"}
         // position="fixed"
         w={"full"}
-        // zIndex="1"     
+        // zIndex="1"
       >
         <Flex
           flex={{ base: 1, md: "auto" }}
           ml={{ base: -2 }}
-          display={{ base: "flex", md: "none" }}      
+          display={{ base: "flex", md: "none" }}
         >
           <IconButton
             onClick={onToggle}
@@ -66,11 +66,9 @@ export default function Navbar() {
             textAlign={useBreakpointValue({ base: "center", md: "left" })}
             fontFamily={"heading"}
             color={useColorModeValue("gray.800", "white")}
+            display={{ md: "none" }}
           >
-            <NavLink to={"/"}>
-              {/* <Logo /> */}
-              LOGO
-            </NavLink>
+            <NavLink to={"/"}>LOGO</NavLink>
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>

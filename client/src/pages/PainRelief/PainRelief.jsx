@@ -1,5 +1,6 @@
 import { SimpleGrid } from "@chakra-ui/react";
 import React from "react";
+import Quote from "../../components/Quote";
 import TreatmentCard from "../../components/TreatmentCard";
 import Banner from "../../components/Treatments/Banner";
 import { banner_data, card_data } from "../../data";
@@ -13,15 +14,13 @@ const PainRelief = () => {
         justifyItems="center"
         spacingX="40px"
         spacingY="60px"
-        // bgColor={"bisque"}
         p={10}
       >
-        {card_data.map((el) => (
+        {card_data.pain_relief.map((el) => (
           <TreatmentCard key={el.title} data={el} />
         ))}
       </SimpleGrid>
-
-      {/* <TreatmentCard /> */}
+      <Quote />
     </>
   );
 };

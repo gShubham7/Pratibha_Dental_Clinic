@@ -1,60 +1,20 @@
-import { Avatar, Box, Flex, keyframes } from "@chakra-ui/react";
+import {
+  Image,
+  Text,
+  VStack,
+} from "@chakra-ui/react";
 
-const CircleCard = () => {
-  const size = "96px";
-  const color = "teal";
-
-  const pulseRing = keyframes`
-	0% {
-    transform: scale(0.33);
-  }
-  40%,
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-	`;
-
+const CircleCard = ({ data }) => {
+  const { title, image } = data;
   return (
-    <Flex
-      justifyContent="center"
-      alignItems="center"
-      h="216px"
-      w="full"
-      overflow="hidden"
-    >
-      {/* Ideally, only the box should be used. The <Flex /> is used to style the preview. */}
-      <Box
-        as="div"
-        position="relative"
-        w={size}
-        h={size}
-        _before={{
-          content: "''",
-          position: "relative",
-          display: "block",
-          width: "300%",
-          height: "300%",
-          boxSizing: "border-box",
-          marginLeft: "-100%",
-          marginTop: "-100%",
-          borderRadius: "50%",
-          bgColor: color,
-          animation: `2.25s ${pulseRing} cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite`,
-        }}
-        mt={"24"}
-      >
-        <Avatar
-          src="https://cdn-icons-png.flaticon.com/512/3895/3895151.png"
-          size="full"
-          position="absolute"
-          top={0}
-        //   border="5px dashed yellow"
-        />
-      </Box>
-    </Flex>
+    <VStack _hover={{ bgColor: "gray.100" }} m={10}>
+      <Image src={image} alt={title} />
+      <Text>{title}</Text>
+      <Image
+        w={20}
+        src="https://cdn-icons-png.flaticon.com/512/2252/2252525.png"
+      />
+    </VStack>
   );
 };
 

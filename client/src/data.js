@@ -134,26 +134,108 @@ export const faq = {
   ],
 };
 
-export const card_data = [
-  {
-    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-    title: "Root Canal Treatment",
-    description:
-      "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
-  },
-  {
-    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-    title: "Wisdom Tooth Removal",
-    description:
-      "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
-  },
-  {
-    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-    title: "Jaw Pain",
-    description:
-      "Jaw disorders are a family of problems related to your complex jaw joint.",
-  },
-];
+export const card_data = {
+  pain_relief: [
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Root Canal Treatment",
+      description:
+        "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Wisdom Tooth Removal",
+      description:
+        "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Jaw Pain",
+      description:
+        "Jaw disorders are a family of problems related to your complex jaw joint.",
+    },
+  ],
+  teeth_replacement: [
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Root Canal Treatment",
+      description:
+        "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Wisdom Tooth Removal",
+      description:
+        "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Jaw Pain",
+      description:
+        "Jaw disorders are a family of problems related to your complex jaw joint.",
+    },
+  ],
+  cosmetic_dentistry: [
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Root Canal Treatment",
+      description:
+        "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Wisdom Tooth Removal",
+      description:
+        "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Jaw Pain",
+      description:
+        "Jaw disorders are a family of problems related to your complex jaw joint.",
+    },
+  ],
+  preventive_dentistry: [
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Root Canal Treatment",
+      description:
+        "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Wisdom Tooth Removal",
+      description:
+        "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Jaw Pain",
+      description:
+        "Jaw disorders are a family of problems related to your complex jaw joint.",
+    },
+  ],
+  kids_dentistry: [
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Root Canal Treatment",
+      description:
+        "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Wisdom Tooth Removal",
+      description:
+        "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Jaw Pain",
+      description:
+        "Jaw disorders are a family of problems related to your complex jaw joint.",
+    },
+  ],
+};
 
 export const promise_card_data = [
   {
@@ -167,5 +249,24 @@ export const promise_card_data = [
   {
     image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
     title: "Transparent Pricing",
+  },
+];
+
+export const circle_card_data = [
+  {
+    image: "https://i.ibb.co/hZ7yxPv/Im-in-pain-01-150x150.png",
+    title: "I'm In Pain",
+  },
+  {
+    image: "https://i.ibb.co/hZ7yxPv/Im-in-pain-01-150x150.png",
+    title: "I Have Missing Teeth",
+  },
+  {
+    image: "https://i.ibb.co/hZ7yxPv/Im-in-pain-01-150x150.png",
+    title: "I Want Better Smile",
+  },
+  {
+    image: "https://i.ibb.co/hZ7yxPv/Im-in-pain-01-150x150.png",
+    title: "I Want To Be Cavity Free",
   },
 ];
