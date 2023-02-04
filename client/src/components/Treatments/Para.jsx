@@ -22,6 +22,7 @@ const Para = ({ data }) => {
           color: "white",
         }}
         // fontWeight="bold"
+        mb={5}
       >
         {para_title}
         {/* <chakra.span

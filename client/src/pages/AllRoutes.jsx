@@ -15,7 +15,7 @@ import WistomTeethRemoval from "./PainRelief/WistomTeethRemoval";
 import JawPain from "./PainRelief/JawPain";
 import Dentures from "./TeethReplacement/Dentures";
 import DentureImplants from "./TeethReplacement/DentureImplants";
-import Bridges_Crowns from "./TeethReplacement/Bridges_Crowns";
+import BridgesCrowns from "./TeethReplacement/BridgesCrowns";
 import SmileMakeover from "./CosmeticDentistry/SmileMakeover";
 import TeethWhitening from "./CosmeticDentistry/TeethWhitening";
 import ClearAligners from "./CosmeticDentistry/ClearAligners";
@@ -40,7 +40,7 @@ const AllRoutes = () => {
       <Route path="/teeth-replacement" element={<TeethReplacement />} />
       <Route path="/dentures" element={<Dentures />} />
       <Route path="/dental-implants" element={<DentureImplants />} />
-      <Route path="/bridges-crowns" element={<Bridges_Crowns />} />
+      <Route path="/bridges-crowns" element={<BridgesCrowns />} />
 
       <Route path="/cosmetic-dentistry" element={<CosmeticDentistry />} />
       <Route path="/smile-makeover" element={<SmileMakeover />} />

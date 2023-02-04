@@ -361,6 +361,86 @@ export const para_data = {
         "The cost of partial dentures varies depending on a variety of factors, including the materials used, the number of teeth replaced, and the process of making the dentures. You may also require dental treatment prior to partial dentures. In such cases, the cost may marginally increase.",
     },
   ],
+  dental_implants: [
+    {
+      para_title: "WHY DENTAL IMPLANTS?",
+      para_info:
+        "One can face the problem of missing teeth at any point in life. Tooth loss can be due to trauma, accident, severe gum disease, tooth decay or even due to poor oral hygiene. If left untreated missing teeth can lead to various consequences such as:",
+      para_list: [
+        "Speech problems resulting from the gap created by one or more missing teeth",
+        "Difficulty in chewing",
+        "Face may start look older and wrinkled with sunken cheeks as missing teeth can cause sagging of muscles which can’t support lips & cheeks",
+        "Restoration and crown/cap",
+        "Pain in the facial muscles of the jaw resulting in an improper bite induced by the missing teeth",
+        "Tooth decay and gum disease, over time, due to plaque accumulation & food entrapment in the gap caused by the missing teeth",
+        "Improper bite resulting from a tilt of adjacent teeth into the empty spaces caused by a missing tooth",
+        "Untreated missing teeth may dent the facial appearance causing low set-esteem or lack of confidence",
+        "Hiding smile during conversations or at public gatherings to avoid the embarrassment caused by a bad smile from missing teeth",
+      ],
+      para_extra:
+        "Dental Implants help to overcome all the above-mentioned problems. They are no doubt the best, and most popular solution for the replacement of missing teeth. Dental implants are fit for every individual having missing teeth irrespective of their age and gender. To know if anyone can get dental implants click here. With a 98% success rate, implants assure dental patients about their teeth and gum’s wellbeing. Dental Implants are essentially a ‘titanium screw’ which is fused with the Jaw Bone.",
+    },
+    {
+      para_title: "ADVANTAGES OF DENTAL IMPLANTS",
+      para_list: [
+        "Dental Implants help restore the lost tooth and become the next best thing to your natural teeth",
+        "Implants are a durable solution with the potential to even outlive the patient",
+        "Dental Implants help maintain the shape and contour of face & smile which can go wrong due to missing teeth making the facial muscles sag",
+        "Implants don’t harm the adjacent tooth structure in any manner and protect healthy bone",
+        "Implants ensure superior appearance and comfort with no speech issue to deal",
+        "Implants boost your self-esteem for being a perfect solution to the missing tooth",
+        "Implants give the freedom to enjoy your favourite foods without any worry",
+      ],
+    },
+    {
+      para_title: "DENTAL IMPLANT PROCEDURE",
+      para_info:
+        "Placing a dental implant has various stages. They are listed as below:",
+      para_procedure: [
+        "Placing The Implant-Thanks to the modern dentistry techniques, it’s possible to make the implant placement procedure comfortable and pain-free. Concerned patients can also ask the dentist for sedation to feel relaxed while a dental implant is placed.The procedure starts with the jawbone preparation, and the surgeon then makes a cut to expose the bone for drilling holes. The holes are kept deep enough for the implant to be placed properly and placed deep into the bone, like the root. The doctor may require bone grafting in cases where the bone is weak or lacks the strength to support implant surgery. The surgeon then waits for the jawbone to heal and after that, places the metal post in it.The entire process, from start to finish, may take many months where most of the time is spent on healing and waiting for the growth of new bone in the jaw. After this, a temporary crown is given to the patient which is placed to fill the gap, and also for achieving the aesthetic goal. This crown can be taken off for implant procedure, one has to wait until the bone is healed properly",
+        "Healing-During this process, the jawbone will grow and unite with the surface of the dental implant. This process is also referred to as osseointegration as it helps to offer a durable base for the new artificial tooth, much like roots do for the natural teeth. In general, this process takes between 3 to 6 months depending on the bone health & structure. However, the whole procedure can get completed in one day itself when patients have good bone structure. After that, you can schedule the second surgery but only once the implants are fused with the bone. Your dentists will take an x-ray to confirm whether the implant is fit for the second surgery. The second surgery will be simpler than the first where a new incision is made to expose the heads of the implants.",
+        "Abutment Placement-You may need another surgery to place the abutment (the piece where the crown will attach) but only after healing is complete. This procedure is relatively simple typically done with anesthesia in an outpatient setting. During the procedure, the dentist will re-open the wound to attach the abutment to dental implant. A temporary crown will be given for 4 to 6 weeks to let the gums around the abutment heal. Such a crown is softer which can cushion the implant and may stress the soft tissues that can help in healing. For precaution purpose, you may need to eat only soft foods after each stage of surgery so to let the surgical site heal properly.",
+        "Placement Of Permanent Crown-In the next stage, the dentist will focus on making the permanent crown look exactly like your natural teeth. All the elements like the surface texture, color and anatomy will be tuned up to blend with the surrounding dentition. If you are not happy with the crown for any reason, consult your dentist so that it can be sent back to the dental technician for necessary changes. Impressions of your mouth and remaining teeth are taken to make the crown so that a realistic-looking artificial tooth can be made. The crown, however, will not be placed until the jawbone is strong enough to support the new tooth. It takes less than 2 to 3 weeks to make a permanent crown which will then be cemented or screwed to the Implant. After permanent crown placement, your doctor will explain post-implant care instruction.",
+      ],
+    },
+    {
+      para_title: "POST-OPERATIVE INSTRUCTIONS FOR DENTAL IMPLANTS",
+      para_list: [
+        "Follow these post-operative instructions after Dental Implant procedure, and never hesitate in consulting the doctor for any question or problem.",
+        "Avoid touching, spitting or rinsing the wound on the day of surgery. Don’t touch the metal healing abutment jutting through the gum tissue.",
+        "After implant surgery, it’s normal to have some bleeding or redness in the mouth for 24 hours. To control excessive bleeding, bite on a gauze pad (placed on the bleeding wound) for 30 minutes. If bleeding does not stop, seek further instructions from your dentist.",
+        "Swelling is natural after surgery. To minimize it, apply an ice pack on the cheek in the surgical area (you can also use a plastic bag or an ice-filled towel). Apply the ice as much as you could for the first 36 hours.",
+        "Drink lots of fluids but avoid consuming hot beverages. Stick to soft diet on the day of surgery. You can get back to the normal diet once the surgical area is healed. Don’t drink anything using a straw.",
+        "Start taking pain medication as soon as you feel the effects of the local anesthetic are going down. However, take the medicines prescribed by the dentist.",
+        " Healing is not possible without good oral hygiene. Use the prescribed oral rinse while the day after surgery, use the prescribed oral rinse twice – after breakfast and before bed. Rinse for at least 30 seconds and then spit it out. Use warm salt rinses at least 4-5 times a day as well. Be gentle initially while brushing the surgical area to not affect the healing.",
+        "Do not use, or consume, tobacco products in any form or any type after implants. It not only hinders healing but may also increase the chances of implant failure.",
+        "Don’t engage in exercise immediately after the surgery or keep it minimal at best. You should know that exercise may cause bleeding or throbbing, and it really happens, stop the activity right away. This may weaken you since you’re not taking normal nourishment.",
+        "Healing abutments will be placed at the time of implant placement. So, do rinse them frequently and keep them clean. Wait for the stitches to dissolve and then clean the abutments through gentle massage.",
+        "Don’t use partial or full dentures or flippers immediately after surgery or for 10 days afterward at least.",
+      ],
+    },
+    {
+      para_title: "DENTAL IMPLANT COST",
+      para_info:
+        "The cost of dental implants may worry some patients; however, implants are not too heavy on your pocket. There are multiple parts to each procedure which actually leads to a perception of implants being expensive. It is critical to understand that if a missing tooth is not replaced with an implant, sooner or later the adjacent teeth start shifting and jawbone loss also starts which ultimately would turn out to be much more expensive to manage than a single dental implant.",
+    },
+    {
+      para_title: "POST IMPLANTS CARE",
+      para_info:
+        "Good oral hygiene is important not just for your teeth and gums but also for overall wellbeing. Follow these tips to improve your oral health:",
+      para_list: [
+        "Brush twice a day to maintain good oral hygiene",
+        "Choose your toothbrush carefully and go for one with a small head and soft bristles",
+        "Change your toothbrush after every two to three months to not let frayed or worn-out bristles harm your teeth and gums",
+        "Go gently & thoroughly and don’t use too much force while brushing as it might cause abrasion",
+        "Floss at least once a day to keep plaque, bacteria, and foods struck between the teeth out as it helps keep implants in good condition",
+        "Take proper oral care at home to make your dental implants last a lifetime",
+        "Use mouth rinses once a day after meals to stay on top of your oral health",
+        "Don’t eat sticky foods as implants can attract more bacteria that your natural teeth for being artificial in nature",
+        "Eating and drinking right can help your implants stay out of the harm’s way and such good oral care can make then last forever",
+      ],
+    },
+  ],
 };
 
 export const faq = {
@@ -419,6 +499,28 @@ export const faq = {
       question: "Do Dentures Hurt?",
       answer:
         "No, dentures do not hurt at all. It is only at the beginning that patients may feel a little discomfort or uneasiness as they are not used to custom dentures in the mouth.",
+    },
+  ],
+  dental_implants: [
+    {
+      question: "How Long Do Dental Implants Lasts?",
+      answer:
+        "Dental implants are known to last for very long, especially with proper care. They can last for as long as 25 years. Get dental implants from a professional at your nearest Smylexl Dental Clinic.",
+    },
+    {
+      question: "Can One Get Full Mouth Dental Implants?",
+      answer:
+        "For missing teeth, dental implants have become the most promising choice. If your mouth is missing most or all of the teeth, then procedures like all-on-four and all-on-six can help get full mouth dental implants with 4 or 6 titanium posts on your jaw bone.",
+    },
+    {
+      question: "Are Dental Implants Painful?",
+      answer:
+        "While getting dental implants from an expert implantologist, the patient will feel little or no pain at all. Part of the preparation for the implant includes administering a local anaesthetic so the patient does not feel any pain.",
+    },
+    {
+      question: "What Is The Cost Of Dental Implants?",
+      answer:
+        "At Smylexl Dental, one get the best quality of treatment. We ensure that our patients get the value for the dental implant cost that they paid. Also, Smylexl Dental purchases only from original manufacturers, therefore, maintaining authenticity and quality.",
     },
   ],
 };

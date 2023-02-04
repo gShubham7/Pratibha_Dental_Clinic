@@ -1,7 +1,7 @@
 import React from "react";
 
-const Bridges_Crowns = () => {
+const BridgesCrowns = () => {
   return <div>Bridges_Crowns</div>;
 };
 
-export default Bridges_Crowns;
+export default BridgesCrowns;

@@ -1,4 +1,4 @@
-import { Box, Divider, Heading, HStack } from "@chakra-ui/react";
+import { Button, Divider, Heading, HStack } from "@chakra-ui/react";
 import React from "react";
 
 const Topbar = () => {
@@ -6,12 +6,15 @@ const Topbar = () => {
     <>
       <HStack
         justifyContent={"space-between"}
-        display={{ base: "none", md: "flex" }}
+        display={{ base: "block", md: "flex" }}
+        p={3}
       >
-        <Heading>Pratibha Dental Clinic</Heading>
-        <Box p={10} bgColor="blue.300">
+        <Heading display={{ base: "none", md: "block" }}>
+          Pratibha Dental Clinic
+        </Heading>
+        <Button p={2} colorScheme="purple" w={{ base: "full", md: "xs" }}>
           Book Apponitment
-        </Box>
+        </Button>
       </HStack>
       <Divider />
     </>

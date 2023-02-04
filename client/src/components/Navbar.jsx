@@ -37,7 +37,7 @@ export default function Navbar() {
         boxShadow="lg"
         rounded="md"
         minH={"60px"}
-        py={{ base: 5 }}
+        py={{ base: 2 }}
         px={{ base: 4 }}
         borderBottom={1}
         borderStyle={"solid"}
@@ -71,7 +71,7 @@ export default function Navbar() {
             <NavLink to={"/"}>LOGO</NavLink>
           </Text>
 
-          <Flex display={{ base: "none", md: "flex" }} ml={10}>
+          <Flex display={{ base: "none", md: "flex" }}>
             <DesktopNav />
           </Flex>
         </Flex>
@@ -292,7 +292,11 @@ const NAV_ITEMS = [
     to: "/blog",
   },
   {
-    label: "Book Appointment",
-    to: "/book-appointment",
+    label: "About Us",
+    to: "/about",
+  },
+  {
+    label: "Contact",
+    to: "/contact",
   },
 ];
