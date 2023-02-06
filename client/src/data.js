@@ -456,67 +456,168 @@ export const para_data = {
       ],
       para_extra:
         "In addition, Dental Crown gives your tooth the strength, shape, size and help to improve the appearance of your tooth. If your dentist has advised, you to get a crown and you are delaying the process then there are chances that you can damage your tooth to the extent that extraction is the last resort.",
-        //Till here completed.....
     },
     {
-      para_title: "ADVANTAGES OF DENTAL IMPLANTS",
+      para_title: "WHAT ARE VARIOUS TYPES OF DENTAL CROWNS?",
+      para_info:
+        "Dental Crowns can be made in variety come in various materials such as:",
       para_list: [
-        "Dental Implants help restore the lost tooth and become the next best thing to your natural teeth",
-        "Implants are a durable solution with the potential to even outlive the patient",
-        "Dental Implants help maintain the shape and contour of face & smile which can go wrong due to missing teeth making the facial muscles sag",
-        "Implants don’t harm the adjacent tooth structure in any manner and protect healthy bone",
-        "Implants ensure superior appearance and comfort with no speech issue to deal",
-        "Implants boost your self-esteem for being a perfect solution to the missing tooth",
-        "Implants give the freedom to enjoy your favourite foods without any worry",
+        "Metal Crowns-If someone is looking for long term and the durable solution then metal crowns are to the rescue. The gold crowns in these are the most used and bonds well with the tooth. These can even withstand hard chewing forces and biting. Being stronger they last longer and do not wear down easily. The only drawback is that they are visible from a distance hence, suitable only for molars.",
+        "Porcelain-Fused-To-Metal-If you have aesthetic concerns and also wish to have metal crowns inserted then these are the best option available. The inside of the teeth is made up of metal and the outer portion of the crown is made of porcelain, as a result, it has the dual advantage – metal which provides strength and porcelain which matches with the color of the teeth making it look like natural teeth. They look the most like natural teeth.",
+        "Ceramic Crown-If you do not want to have metal inserted inside your mouth but want the strength to match metal crowns then ceramic crowns are the best option available. Not only is the strong but blends more naturally with your tooth color making it unnoticed. It does not have any aesthetic concerns and is the best option for the front, back and even for the bridges. The problem of porcelain wearing down and metal being visible is solved by this Dental Crown. They may not be considered as an option for molars because forces applied while biting can wear down your teeth.",
       ],
     },
     {
-      para_title: "DENTAL IMPLANT PROCEDURE",
+      para_title: "DO’S WITH DENTAL CROWNS",
+      para_list: [
+        "Since the natural teeth are still beneath the crown and are vulnerable to decay, therefore, it is important to maintain good oral hygiene therefore brushing, rinsing and flossing should be followed regularly.",
+        "If you clench your teeth, then it is advised to use mouthguard to protect your crown and this also does not allow your teeth to wear down.",
+        "Get crowns only by a dental expert who is trained in placing dental implants. Poor placement of crowns can reduce the longevity of crowns.",
+        "Do visit your dentist every 6 months to ensure that your oral health is in the best care.",
+      ],
+    },
+    {
+      para_title: "DON’TS WITH DENTAL CROWNS",
+      para_list: [
+        "Do not use your teeth as tools as this will put pressure and will damage the crown",
+        "Do not bite your nails and chew pencils",
+        "Do not chew ice or candy which is hard",
+        "Do not eat sticky food",
+        "Do not consume too hot or too cold food as this might cause sensitivity",
+      ],
+    },
+    {
+      para_title: "MYTHS ABOUT DENTAL CROWNS",
+      para_list: [
+        "Dental Crowns Do Not Look Natural-There is a misconception that dental crowns do not match with your teeth hence give the impression of an artificial tooth. However, with changes in technology crowns come in various material which looks exactly like your natural teeth. And even metal crowns are a good and viable option because they are used as molars and are never seen.",
+        "Crowns Last Forever-Though the crowns are now stronger and have longevity, yet they cannot last a lifetime. It also depends as to how well they are taken care of. To ensure they last longer visit your dentist after every 6 months, your dentist will monitor your crown and will replace it timely.",
+        "Food And Beverage Stains The Crown-The biggest myth that people carry. They believe that food and beverages can stain their teeth with time but in reality, the crowns are made of porcelain and ceramic which do not stain easily.",
+        "Only Used For Restorative Dentistry-People believe that one gets crown only if they have fractured tooth, have undergone root canal treatment or have broken or chipped a tooth. But the truth is they are used in cosmetic dentistry as a way to enhance the appearance and to have a whiter and beautiful smile.",
+        "Dental Crowns Do Not Break Or Chip-Though ceramic and porcelain are harder substances yet if you bite on something extremely hard, or face accident or trauma then your crown may break.",
+        "You Cannot Get Cavity With Crowns-Because crown covers your tooth, therefore, they become vulnerable to decay. Though crowns, as they are artificial, have no chances of decay yet the part below them can decay. It is, therefore, required to keep your teeth and the area around clean to prevent a cavity.",
+      ],
+    },
+    {
+      para_title: "HOW MUCH DO I HAVE TO PAY FOR DENTAL BRIDGES AND CROWNS?",
       para_info:
-        "Placing a dental implant has various stages. They are listed as below:",
+        "The price of dental bridges and crowns depends on the type chosen by the patients. For example, you’ll have to pay more for an all-porcelain bridge than for a metal bridge However, it is an affordable option and patients can also choose to pay the price in EMIs at Smylexl Dental clinics.",
+    },
+  ],
+  smile_makeover: [
+    {
+      para_title: "Tooth Colour",
+      para_info:
+        "Bright and white teeth are a sign of youthful appearance. The dentist will match the color of the teeth with skin tone, skin color, and hair color. He can change the color of the teeth by Bleaching or Veneers. The line from incisal edges of upper teeth from side to side should follow the contour of the lower lip for an aesthetic appearance.",
+    },
+    {
+      para_title: "Tooth Size/Shape",
+      para_info:
+        "As the age increases the teeth become shorter due to attrition. Long teeth give a young look. Some teeth are slightly abnormal in shape as compared to adjacent teeth eg. Peg laterals which give an unaesthetic appearance. The size and shape of the teeth can be changed by veneers or crowns. The white show (tooth show) can also be increased by procedures like crown lengthening or changing the gum line (in cases of a gummy smile) by the help of laser dentistry. The width to length ratio of the upper central incisors should be 4-5 for a balanced smile line.",
+    },
+    {
+      para_title: "Tooth Position",
+      para_info:
+        "Crooked, crowded or spacing between teeth can be corrected by using Braces, Aligners or Veneers.",
+    },
+    {
+      para_title: "Missing Teeth",
+      para_info:
+        "Missing teeth can be replaced by using Bridges, Implants or other Removable Prosthesis.",
+    },
+    {
+      para_title: "PROCEDURES INVOLVED IN SMILE MAKEOVER",
+      para_info: "The procedures involved in smile makeover can be mix of",
       para_procedure: [
-        "Placing The Implant-Thanks to the modern dentistry techniques, it’s possible to make the implant placement procedure comfortable and pain-free. Concerned patients can also ask the dentist for sedation to feel relaxed while a dental implant is placed.The procedure starts with the jawbone preparation, and the surgeon then makes a cut to expose the bone for drilling holes. The holes are kept deep enough for the implant to be placed properly and placed deep into the bone, like the root. The doctor may require bone grafting in cases where the bone is weak or lacks the strength to support implant surgery. The surgeon then waits for the jawbone to heal and after that, places the metal post in it.The entire process, from start to finish, may take many months where most of the time is spent on healing and waiting for the growth of new bone in the jaw. After this, a temporary crown is given to the patient which is placed to fill the gap, and also for achieving the aesthetic goal. This crown can be taken off for implant procedure, one has to wait until the bone is healed properly",
-        "Healing-During this process, the jawbone will grow and unite with the surface of the dental implant. This process is also referred to as osseointegration as it helps to offer a durable base for the new artificial tooth, much like roots do for the natural teeth. In general, this process takes between 3 to 6 months depending on the bone health & structure. However, the whole procedure can get completed in one day itself when patients have good bone structure. After that, you can schedule the second surgery but only once the implants are fused with the bone. Your dentists will take an x-ray to confirm whether the implant is fit for the second surgery. The second surgery will be simpler than the first where a new incision is made to expose the heads of the implants.",
-        "Abutment Placement-You may need another surgery to place the abutment (the piece where the crown will attach) but only after healing is complete. This procedure is relatively simple typically done with anesthesia in an outpatient setting. During the procedure, the dentist will re-open the wound to attach the abutment to dental implant. A temporary crown will be given for 4 to 6 weeks to let the gums around the abutment heal. Such a crown is softer which can cushion the implant and may stress the soft tissues that can help in healing. For precaution purpose, you may need to eat only soft foods after each stage of surgery so to let the surgical site heal properly.",
-        "Placement Of Permanent Crown-In the next stage, the dentist will focus on making the permanent crown look exactly like your natural teeth. All the elements like the surface texture, color and anatomy will be tuned up to blend with the surrounding dentition. If you are not happy with the crown for any reason, consult your dentist so that it can be sent back to the dental technician for necessary changes. Impressions of your mouth and remaining teeth are taken to make the crown so that a realistic-looking artificial tooth can be made. The crown, however, will not be placed until the jawbone is strong enough to support the new tooth. It takes less than 2 to 3 weeks to make a permanent crown which will then be cemented or screwed to the Implant. After permanent crown placement, your doctor will explain post-implant care instruction.",
+        "Veneers/Crowns-Veneers are thin tooth colored custom made shells that are fixed on the labial surface of teeth to change their color, shape, and size. These improve the appearance of front teeth. Crowns are also tooth-colored custom made shells but they cover the full surface of the tooth. They also make the tooth stronger.",
+        "Teeth Whitening-Teeth whitening is a process of removing stains from the tooth surface and restoring the natural color of the teeth. Whitening is a one-time procedure performed by a dentist. It is amongst the most common and widely adopted cosmetic procedure.",
+        "Composite Bonding-Permanently attaching a tooth-colored material (composite) onto the tooth is called composite bonding. This can be Direct or Indirect. Direct composite bonding can be used by dentists on the chair to do fillings, repair fractured edges and close gaps. Indirect bonding is usually done in the lab.",
+        "Dental Implants-Dental Implants are root-like titanium screws which are surgically placed in the jaw bone for replacement of missing teeth. It greatly increases the self-esteem of the patient as it closely simulates the natural tooth. It does not cause any speech difficulty and has high acceptability.",
+        "Orthodontic Treatment-Orthodontic treatment is a way of straightening teeth to make them look more esthetic and improve function. The treatment can be done by Braces and Aligners (Invisible Braces). There are tooth-colored braces, metal braces, and lingual braces. The treatment usually takes 12-18 months to complete but is more stable and long lasting as it preserves the natural integrity of teeth.",
       ],
     },
     {
-      para_title: "POST-OPERATIVE INSTRUCTIONS FOR DENTAL IMPLANTS",
-      para_list: [
-        "Follow these post-operative instructions after Dental Implant procedure, and never hesitate in consulting the doctor for any question or problem.",
-        "Avoid touching, spitting or rinsing the wound on the day of surgery. Don’t touch the metal healing abutment jutting through the gum tissue.",
-        "After implant surgery, it’s normal to have some bleeding or redness in the mouth for 24 hours. To control excessive bleeding, bite on a gauze pad (placed on the bleeding wound) for 30 minutes. If bleeding does not stop, seek further instructions from your dentist.",
-        "Swelling is natural after surgery. To minimize it, apply an ice pack on the cheek in the surgical area (you can also use a plastic bag or an ice-filled towel). Apply the ice as much as you could for the first 36 hours.",
-        "Drink lots of fluids but avoid consuming hot beverages. Stick to soft diet on the day of surgery. You can get back to the normal diet once the surgical area is healed. Don’t drink anything using a straw.",
-        "Start taking pain medication as soon as you feel the effects of the local anesthetic are going down. However, take the medicines prescribed by the dentist.",
-        " Healing is not possible without good oral hygiene. Use the prescribed oral rinse while the day after surgery, use the prescribed oral rinse twice – after breakfast and before bed. Rinse for at least 30 seconds and then spit it out. Use warm salt rinses at least 4-5 times a day as well. Be gentle initially while brushing the surgical area to not affect the healing.",
-        "Do not use, or consume, tobacco products in any form or any type after implants. It not only hinders healing but may also increase the chances of implant failure.",
-        "Don’t engage in exercise immediately after the surgery or keep it minimal at best. You should know that exercise may cause bleeding or throbbing, and it really happens, stop the activity right away. This may weaken you since you’re not taking normal nourishment.",
-        "Healing abutments will be placed at the time of implant placement. So, do rinse them frequently and keep them clean. Wait for the stitches to dissolve and then clean the abutments through gentle massage.",
-        "Don’t use partial or full dentures or flippers immediately after surgery or for 10 days afterward at least.",
-      ],
-    },
-    {
-      para_title: "DENTAL IMPLANT COST",
+      para_title: "WHY SHOULD ONE OPT FOR GETTING SMILE MAKEOVER",
       para_info:
-        "The cost of dental implants may worry some patients; however, implants are not too heavy on your pocket. There are multiple parts to each procedure which actually leads to a perception of implants being expensive. It is critical to understand that if a missing tooth is not replaced with an implant, sooner or later the adjacent teeth start shifting and jawbone loss also starts which ultimately would turn out to be much more expensive to manage than a single dental implant.",
+        "Smile Makeover is a boon in dentistry as it makes the patient look more esthetically acceptable in society. It remarkably increases the self-confidence and self-esteem in patients. It also contributes to better function helping patients to lead a more comfortable lifestyle.",
     },
     {
-      para_title: "POST IMPLANTS CARE",
+      para_title: "WHAT ARE THE PRECAUTIONS TO BE TAKEN",
       para_info:
-        "Good oral hygiene is important not just for your teeth and gums but also for overall wellbeing. Follow these tips to improve your oral health:",
+        "Veneers need to be replaced in case they break or chip off. The patients are advised not to eat hard food when they are wearing veneers. Crowns usually require replacement after 10-15 years. Composite bondings can get stained or can break and would need replacement. Implants have to be kept for 3-4 months before loading it with the crown and have to be checked for osseointegration. Patient has to be regular and cooperative during the complete orthodontic treatment. In addition depending upon the treatment mix always consult your dentist for doubts.",
+    },
+    {
+      para_title: "POST TREATMENT CARE",
+      para_info:
+        "Smile makeover requires regular maintenance of oral hygiene. The patient has to visit the dentist every 6 months for a checkup and any minor repairs.",
+    },
+    {
+      para_title: "SMILE MAKEOVER PRICES",
+      para_info:
+        "Depending on your dental health, the length of treatment and cost of your smile makeover will differ. If your dentist detects any underlying oral health concerns before commencing treatment, your Delaying gum problems not only affects oral health as a whole, it directly impacts overall health for instance, its directly related to increased risk of heart disease. However, if you are someone with immaculate oral health, then the charges become significantly reasonable.",
+    },
+  ],
+  teeth_whitening: [
+    {
+      para_title: "WHAT IS THE NEED FOR TEETH WHITENING?",
+      para_info:
+        "The enamel which reflects the natural color of your tooth can stain or dentin which is the inner surface of teeth stains and yellows the teeth. The causes of tooth discoloration are varied. Though many causes can be prevented yet there are some which are not in control. The causes of discoloration are:",
       para_list: [
-        "Brush twice a day to maintain good oral hygiene",
-        "Choose your toothbrush carefully and go for one with a small head and soft bristles",
-        "Change your toothbrush after every two to three months to not let frayed or worn-out bristles harm your teeth and gums",
-        "Go gently & thoroughly and don’t use too much force while brushing as it might cause abrasion",
-        "Floss at least once a day to keep plaque, bacteria, and foods struck between the teeth out as it helps keep implants in good condition",
-        "Take proper oral care at home to make your dental implants last a lifetime",
-        "Use mouth rinses once a day after meals to stay on top of your oral health",
-        "Don’t eat sticky foods as implants can attract more bacteria that your natural teeth for being artificial in nature",
-        "Eating and drinking right can help your implants stay out of the harm’s way and such good oral care can make then last forever",
+        "Consuming tea, coffee, wine, cola frequently",
+        "Smoking cigarettes and chewing tobacco",
+        "High intake of fluoride during childhood",
+        "Damage of developing permanent teeth due to accident or trauma",
+        "Aging can also contribute to staining of teeth as with age the enamel gets thinner exposing the dentin below. With age, the dentin come in contact with certain food and beverage and can stain your teeth",
+        " Certain medical treatments can also contribute to staining of teeth",
       ],
+      para_extra:
+        "The process of Teeth Whitening clears the stain and make your teeth look whiter. However, one should keep in mind that the results may vary from person to person.",
+    },
+    {
+      para_title: "HOW DOES TEETH WHITENING WORKS?",
+      para_info:
+        "Your dentist will first photograph your teeth which will help to know the progress of the treatment. This is also used to examine your tooth and figure out the stains. After examining the tooth dentist will start by cleaning the tooth. He will remove the film on your enamel coated due to the food you eat or due to other substances. The whitening process begins after this. The entire process takes around 30-90 mins depending upon the severity of the stains on teeth. Your dentist will cover the gums and will then apply the whitening agent on teeth. Some whitening agents require laser lights on them and if your teeth are badly stained then your dentist will suggest you continue the process at home for a few days. You can also opt for home whitening treatment, in this, your dentist will take an impression of your teeth and will make a custom fit mouthpiece. This helps the whitening agent to stay intact on your teeth. One can also buy over the counter whitening products which is suitable only for the teeth which are not heavily stained.",
+    },
+    {
+      para_title: "IS THERE A RISK ASSOCIATED WITH TEETH WHITENING?",
+      para_info:
+        "Teeth whitening do not have any risks associated however, some people may feel sensitivity for a few days or can experience mild gum irritation for some days. Because Teeth Whitening is a cosmetic procedure it is not advised to pregnant ladies. They can get it done only after delivery. To know more about Teeth whitening click here.",
+    },
+    {
+      para_title: "COST FOR TEETH WHITENING",
+      para_info:
+        "The cost of teeth whitening might vary greatly depending on the product and technique used. In addition, it also depends on the condition of your teeth. The dentists at Smylexl Dental would be able to give you an estimate after a complete evaluation of your teeth and smile.",
+    },
+  ],
+  clear_aligners: [
+    {
+      para_title: "HOW DO THEY WORK?",
+      para_info:
+        "They are custom made for every person and designed to move teeth in the desired direction very very slowly. This is achieved by digitally capturing impression and processing the information using specialized software, where the future projections for better results and straighter teeth are computed and then the milling machine automatically custom fabricates the set of trays for you. On average, a person needs approximately 25-40 sets for complete alignment. The aligners come with an advantage i.e. they are very snugly fitting which over a period becomes virtually a part of the body and hence causes no speech problems. There are no restrictions on eating and drinking any foods as you will be removing them before every meal.",
+    },
+    {
+      para_title: "CARE WITH ALIGNERS ON",
+      para_info:
+        "Though aligners are the most comfortable option, yet there are certain things that need to be kept in mind while you have it on. Your Orthodontist will give you a set of guidelines that should be followed diligently such as below:",
+      para_list: [
+        "You should wear the aligners for at least 20 hours a day for the effective results",
+        "Remove your aligners while brushing, flossing & eating. Never have it on especially while consuming anything hot",
+        "Keep your aligners clean. While you brush make sure that you brush your aligners in the same way",
+        "Keep them safe in the box as given by your Orthodontist to prevent it from getting dirty",
+      ],
+    },
+    {
+      para_title: "POST-TREATMENT CARE",
+      para_list: [
+        "Retain your smile with Retainer – Just because you’ve got your teeth straightened does not necessarily mean that it will stay straight throughout. Your Orthodontist might advise retainers which will prevent your teeth to shift back to their previous location",
+        "Take care of your food habits – It may so happen that your teeth are sensitive after the treatment, therefore, it is advised to not consume, too crunchy food for a few days. Let your smile rest before going back to the crunchy munchy snacks",
+        "Do not forget to brush – Keep up your habit of brushing twice a day and flossing in order to keep your teeth clean and healthy. Not taking good care of your oral hygiene will let the treatment go in vain.",
+        "Visit your dentist – Because you are done with your treatment and have got that perfect smile you always desired for does not mean that you need not visit the dentist ever. Always visit a dentist after every 6 months to ensure that this smile remains intact.",
+      ],
+    },
+    {
+      para_title: "COST OF CLEAR ALIGNERS IN INDIA",
+      para_info:
+        "The cost of Invisible Braces Treatment or Clear Aligner Treatment varies depending on the alignment of teeth and other factors that can be assessed by a dentist with a full mouth scan. The cost of treatment is determined by a variety of criteria, including the intricacy of the case, the number of improvements required, and the number of aligners used. While all of these factors are interconnected, the number of aligners required for treatment is one of the most important.",
     },
   ],
 };
@@ -599,6 +700,109 @@ export const faq = {
       question: "What Is The Cost Of Dental Implants?",
       answer:
         "At Smylexl Dental, one get the best quality of treatment. We ensure that our patients get the value for the dental implant cost that they paid. Also, Smylexl Dental purchases only from original manufacturers, therefore, maintaining authenticity and quality.",
+    },
+  ],
+  bridges_crowns: [
+    {
+      question: "What Is The Cost Of Dental Crowns?",
+      answer:
+        "Dental Crowns may be more expensive than fillings, but they have the advantage of actually lasting longer as well. At Smylexl Dental, we ensure that our patients always get the best quality and value for their money. Visit your nearest Smylexl Dental Clinic for more information.",
+    },
+    {
+      question: "How Long Does A Dental Crown Last?",
+      answer:
+        "Depending on several factors that include the case specifics, material, and compliance to oral hygiene routines, dental crowns may last anywhere between 5 to 15 years. We advise our patients to maintain their oral hygiene after implantation of dental crown.",
+    },
+    {
+      question: "Do Dental Crowns Hurt??",
+      answer:
+        "Before the procedure, dentists administer a local anaesthetic. Therefore getting dental crowns may not hurt. However, once the anaesthetic wears off, feeling soreness and sensitivity in the gums is usual, and it usually goes away in a few days.",
+    },
+    {
+      question: " Do One Needs A Dental Crown After RCT?",
+      answer:
+        "Root Canal Treatment means that the pulp inside the tooth will be cleared out. Therefore to provide strength after filling up the cavity, crowns are usually used. Adding a crown to the tooth after RCT is a must.",
+    },
+  ],
+  smile_makeover: [
+    {
+      question: "What Is The Cost Of A Smile Makeover Procedure?",
+      answer:
+        "Smile Makeover is not just one procedure but a culmination of several different treatments. While some require a majority of them, others can need fewer procedures. Thus, smile makeover cost can vary from person to person, as it is a reflection of what exactly is needed.",
+    },
+    {
+      question: "How To Get Perfect Teeth?",
+      answer:
+        "Getting perfect teeth is easy; you only need to take care of two things. First, follow all of the basic oral hygiene principles like brushing, flossing, and rinsing. Second, make sure that you visit a dental clinic at least twice every year for dental check-ups. For dental check-ups and consultation.",
+    },
+    {
+      question: "Can One Get Their Teeth Fixed Without Braces?",
+      answer:
+        "With technology covering larger leaps than before, getting straighter teeth has become easier. There are a number of clear aligners and invisible braces that are available in the market and can straighten your teeth without letting others know that you are wearing any.",
+    },
+    {
+      question: "Can A Tooth Be Pushed Back Into Its Place?",
+      answer:
+        "In many situations, the tooth moves into place on its own. However, in some cases, experts at the dental clinic also have several ways to push the tooth back shall there be a need for it.",
+    },
+  ],
+  teeth_whitening: [
+    {
+      question: "How Often Should You Get Your Teeth Whitened?",
+      answer:
+        "A teeth whitening treatment by professional lasts for about a year. Thus, undergoing a teeth whitening process after one year is considered healthy for overall oral health and a lasting smile. If you want to get expert teeth whitening treatment, get an appointment today.",
+    },
+    {
+      question: "Can One Brush Their Teeth After The Whitening Process?",
+      answer:
+        "Brushing teeth right after a teeth whitening treatment is not advised by dentists. Individuals must allow few hours to pass before brushing the teeth for the first time after treatment.",
+    },
+    {
+      question: "Is Teeth Whitening Permanent?",
+      answer:
+        "There are many types of teeth whitening treatment. The effect of each treatment differs from few months to up to three years. However, individuals who consume a lot of tea, coffee, and tobacco, or smoke will not be able to see the results for a longer time.",
+    },
+    {
+      question: "Does Coconut Oil Whiten Teeth?",
+      answer:
+        "There is no proven research that shows the usage of coconut oil for teeth whitening. Dentists suggest that individuals must refrain from experimenting with their teeth as it can lead to side effects too.",
+    },
+    {
+      question: "What Is The Cost Of Teeth Whitening Treatment?",
+      answer:
+        "The teeth whitening cost differs on aspects like oral health situation of an individual and type of treatment selected. Patients must discuss with a dentist to get complete details of price for the teeth whitening treatment.",
+    },
+  ],
+  clear_aligners: [
+    {
+      question: "Are Invisible Aligners As Good As Braces?",
+      answer:
+        "Aligners offer multiple advantages over traditional braces. They are discreet and offer better results in a hassle-free and fast manner. Teeth Aligners are also way more comfortable than traditional braces. However, patients still need to be very disciplined about wearing aligners for ensuring treatment success.",
+    },
+    {
+      question: "Can Anyone Get Teeth Aligners?",
+      answer:
+        "Clear Aligners/ Invisible braces are an ideal orthodontic treatment for people of all ages. They are discreet, hassle-free and very effective. However, compliance is more demanding in the case of children. Parents considering aligners for their children must consult an orthodontist at Smylexl Dental and ensure that the child is a perfect candidate for aligners.",
+    },
+    {
+      question: "How Long Does It Take To Recover?",
+      answer:
+        "Aligners are hassle-free and promise much faster results than traditional braces. Getting accustomed to aligners is easy and the recovery time is also shorter. But in some cases, it can vary depending on the teeth straightening needs and overall patient compliance. Ideally, recovery time for aligners is between 13-15 months.",
+    },
+    {
+      question: "Are The Results Permanent?",
+      answer:
+        "The results are permanent only if patients practice proper aftercare. There is a natural tendency for teeth to relapse after teeth aligners are removed. Ideally, retainers are used to avoid any chances of relapse. Patients can either opt for either fixed or removable retainers to ensure the results are permanent.",
+    },
+    {
+      question: "Are There Any Side-Effects Of The Treatment?",
+      answer:
+        "No, there are no side effects. Aligners are one of the safest orthodontics treatment. Further, a dentist will suggest aligners only after proper assessment of the current state of your smile. Chances of irritation and discomfort are extremely negligible and most patients get accustomed to aligners within 2-3 weeks.",
+    },
+    {
+      question: "What Is The Price Of Treatment?",
+      answer:
+        "Aligners are costlier than traditional braces. Further, aligners cost vary depending upon a patient’s smile restoration needs. However, considering its effectiveness in getting a perfect smile, the treatment is worth all its costs.",
     },
   ],
 };

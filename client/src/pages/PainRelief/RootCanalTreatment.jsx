@@ -6,7 +6,7 @@ import Para from "../../components/Treatments/Para";
 import FAQAccordion from "../../components/Treatments/FAQAccordion";
 import Quote from "../../components/Quote";
 
-const RCT = () => {
+const RootCanalTreatment = () => {
   return (
     <>
       <Banner data={banner_data.rct} />
@@ -44,4 +44,4 @@ const RCT = () => {
   );
 };
 
-export default RCT;
+export default RootCanalTreatment;

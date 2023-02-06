@@ -4,8 +4,7 @@ import React from "react";
 const Para = ({ data }) => {
   const { para_title, para_info, para_list, para_extra, para_procedure } = data;
   return (
-    <Box
-      p={5}
+    <Box    
       maxW={{
         base: "xl",
         lg: "5xl",

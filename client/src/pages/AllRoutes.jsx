@@ -5,7 +5,7 @@ import BookAppointment from "./BookAppointment";
 import Home from "./Home";
 import PatientSafety from "./PatientSafety";
 import OurPromise from "./OurPromise";
-import RCT from "./PainRelief/RCT";
+import RootCanalTreatment from "./PainRelief/RootCanalTreatment";
 import PainRelief from "./PainRelief/PainRelief";
 import TeethReplacement from "./TeethReplacement/TeethReplacement";
 import CosmeticDentistry from "./CosmeticDentistry/CosmeticDentistry";
@@ -25,6 +25,8 @@ import AdvancedGumTreatment from "./PreventiveDentistry/AdvancedGumTreatment";
 import BadBreadthTreatment from "./PreventiveDentistry/BadBreadthTreatment";
 import TeethCleaning from "./PreventiveDentistry/TeethCleaning";
 import MouthUlcers from "./PreventiveDentistry/MouthUlcers";
+import AboutUs from "./AboutUs";
+import Contact from "./Contact";
 
 const AllRoutes = () => {
   return (
@@ -33,7 +35,7 @@ const AllRoutes = () => {
       <Route path="/promise" element={<OurPromise />} />
 
       <Route path="/pain-relief" element={<PainRelief />} />
-      <Route path="/rct" element={<RCT />} />
+      <Route path="/root-canal-treatment" element={<RootCanalTreatment />} />
       <Route path="/wisdom-tooth-removal" element={<WistomTeethRemoval />} />
       <Route path="/jaw-pain-treatment" element={<JawPain />} />
 
@@ -62,6 +64,8 @@ const AllRoutes = () => {
 
       <Route path="/patient-safety" element={<PatientSafety />} />
       <Route path="/blog" element={<Blog />} />
+      <Route path="/about-us" element={<AboutUs />} />
+      <Route path="/contact" element={<Contact />} />
       <Route path="/book-appointment" element={<BookAppointment />} />
     </Routes>
   );
