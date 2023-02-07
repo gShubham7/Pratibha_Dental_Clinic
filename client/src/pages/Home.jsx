@@ -15,7 +15,7 @@ const Home = () => {
         loop
         muted
       />
-      <Box textAlign="center">
+      <Box textAlign="center" mt={10}>
         <Text>---Smile---</Text>
         <Heading>HELP US TO HELP YOU</Heading>
         <SimpleGrid columns={{ base: 1, md: 4 }}>
@@ -24,7 +24,7 @@ const Home = () => {
           ))}
         </SimpleGrid>
         <Heading p={10}>Our Promise</Heading>
-        <SimpleGrid columns={{ base: 1, md: 3 }}>
+        <SimpleGrid columns={{ base: 1, md: 3 }} mb={10}>
           {promise_card_data.map((el) => (
             <PromiseCard key={el.title} data={el} />
           ))}

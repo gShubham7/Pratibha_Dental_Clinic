@@ -10,6 +10,7 @@ const Para = ({ data }) => {
         lg: "5xl",
       }}
       m="auto"
+      mt={5}
     >
       <chakra.h2
         fontSize={{
