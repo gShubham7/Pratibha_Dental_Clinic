@@ -1,14 +1,14 @@
 export const banner_data = {
   pain_relief: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://www.wcdentalarts.com/wp-content/uploads/2019/03/shutterstock_682397194.jpg",
     banner_question: "Pain Relief",
     banner_extra:
       "Dental pain is one of the severe most pains in human body and we wish nobody ever suffer from it. The moment you experience this discomfort, just drop down at SmyleXL where our dental experts do their best to relieve pain within minutes.",
   },
   rct: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://oraluxdental.com.au/wp-content/uploads/2020/11/RCT_OK-1.png",
     banner_question: "What is Root canal Treatment ?",
     banner_sub_info:
       "The outer portion or Crown of a tooth is a three-layered structure namely – Enamel, Dentin & Pulp. If the tooth decay is limited to the first two layers, it can be corrected with Filling/ Restoration.",
@@ -17,7 +17,7 @@ export const banner_data = {
   },
   wisdom_tooth_removal: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://images.squarespace-cdn.com/content/v1/5c360a8bb823f9477a1a8793/1592587227131-XTUX2T52Q164P17RCEO2/shutterstock_327915776.jpg?format=1500w",
     banner_question: "WHAT ARE WISDOM TEETH?",
     banner_sub_info:
       "Wisdom teeth often known as third molars are the last teeth to erupt. One usually gets them in late teens or early twenties. However, even instances of eruption in late adulthood are common.",
@@ -26,7 +26,7 @@ export const banner_data = {
   },
   jaw_pain_treatment: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://mydentistanaheim.com/wp-content/uploads/2018/06/shutterstock_139302251.jpg",
     banner_question: "Jaw Pain Treatment​",
     banner_sub_info:
       "Have you ever experienced ‘clicking’ sound while opening/closing your jaw or does your jaw deviate to right/left side during jaw movements? If yes, you might be having TMJ problem. If you want a TMJ treatment in Viman Nagar, without any second thought visit us at SmyleXL.",
@@ -35,7 +35,7 @@ export const banner_data = {
   },
   teeth_replacement: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://mydentalremedies.com/wp-content/uploads/2020/09/You-Do-Not-Have-to-Continue-Dealing-with-the-Side-Effects-of-Missing-Teeth-Dental-Remedies.png",
     banner_question: "Teeth Replacement",
     banner_sub_info:
       "The practice of looking after your gums and teeth and maintaining good oral hygiene to keep them healthy is known as preventive dentistry. The main aim is to avoid cavities, gum infections, enamel wear, tooth loss and more.",
@@ -44,7 +44,7 @@ export const banner_data = {
   },
   dentures: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://cdn.sanity.io/images/0vv8moc6/dpr/ab6bbc07a3e80c903ed97f83fd7a468b651005ab-640x380.png/VITAFeatureImage.png?w=1500&fit=max&auto=format",
     banner_question: "WHAT ARE DENTURES?",
     banner_sub_info:
       "Dentures are removable appliances which are used as a replacement of missing teeth and tissues. They are the artificial teeth which enable normal functioning of human mouth.",
@@ -53,7 +53,7 @@ export const banner_data = {
   },
   dental_implants: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://bhardwajdentalclinic.com/wp-content/uploads/2020/08/single-tooth-implant-Indore-768x548.jpg",
     banner_question: "WHAT ARE DENTAL IMPLANTS?",
     banner_sub_info:
       "Dental implants are easily the most popular and also the ideal solution, for replacing your missing tooth/teeth. They have definitely changed the course of dentistry in the last quarter of a century or so.",
@@ -62,7 +62,7 @@ export const banner_data = {
   },
   bridges_crowns: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://west85thdental.com/wp-content/uploads/2021/02/dental-bridge-vector.jpg",
     banner_question: "WHAT ARE DENTAL CROWNS?",
     banner_sub_info:
       "Dental Crowns are a tooth-shaped cap which is placed on the tooth to restore the shape, size, and appearance of the tooth.",

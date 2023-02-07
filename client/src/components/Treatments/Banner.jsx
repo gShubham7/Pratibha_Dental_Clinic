@@ -1,19 +1,10 @@
-import { Box, chakra, Divider, Flex } from "@chakra-ui/react";
+import { Box, chakra, Divider, Flex, Image } from "@chakra-ui/react";
 import React from "react";
 
 const Banner = ({ data }) => {
   const { banner_image, banner_question, banner_sub_info, banner_extra } = data;
   return (
-    <Flex
-      // bg="#edf3f8"
-      // _dark={{
-      //   bg: "#3e3e3e",
-      // }}
-      p={25}
-      w="full"
-      alignItems="center"
-      justifyContent="center"
-    >
+    <Flex p={25} w="full" alignItems="center" justifyContent="center">
       <Box
         bg="white"
         _dark={{
@@ -42,18 +33,21 @@ const Banner = ({ data }) => {
           }}
         >
           <Box
-            h={{
-              base: "md",
-              // lg: "md",
-            }}
-            rounded={{
-              lg: "lg",
-            }}
-            bgSize="cover"
-            style={{
-              backgroundImage: `url(${banner_image})`,
-            }}
-          ></Box>
+          // w={"full"}
+          // h={{
+          //   base: "md",
+          //   // lg: "md",
+          // }}
+          // rounded={{
+          //   lg: "lg",
+          // }}
+          // bgSize="cover"
+          // style={{
+          //   backgroundImage: `url(${banner_image})`,
+          // }}
+          >
+            <Image src={banner_image} rounded={{ lg: "lg" }} />
+          </Box>
         </Box>
 
         <Box
