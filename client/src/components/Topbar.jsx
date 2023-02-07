@@ -1,7 +1,9 @@
 import { Button, Divider, Heading, HStack } from "@chakra-ui/react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Topbar = () => {
+  const navigate = useNavigate();
   return (
     <>
       <HStack
@@ -12,7 +14,12 @@ const Topbar = () => {
         <Heading display={{ base: "none", md: "block" }}>
           Pratibha Dental Clinic
         </Heading>
-        <Button p={2} colorScheme="purple" w={{ base: "full", md: "xs" }}>
+        <Button
+          p={2}
+          colorScheme="purple"
+          w={{ base: "full", md: "xs" }}
+          onClick={() => navigate("/book-appointment")}
+        >
           Book Apponitment
         </Button>
       </HStack>

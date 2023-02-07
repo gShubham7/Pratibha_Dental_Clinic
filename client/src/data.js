@@ -620,6 +620,301 @@ export const para_data = {
         "The cost of Invisible Braces Treatment or Clear Aligner Treatment varies depending on the alignment of teeth and other factors that can be assessed by a dentist with a full mouth scan. The cost of treatment is determined by a variety of criteria, including the intricacy of the case, the number of improvements required, and the number of aligners used. While all of these factors are interconnected, the number of aligners required for treatment is one of the most important.",
     },
   ],
+  braces_aligners: [
+    {
+      para_title: "WHAT ARE BRACES USED FOR?",
+      para_info:
+        "The major reason for getting Braces on is to improve the facial appearance, what people do not know is that there are any other implications which require orthodontic treatment like open bite, jaw structure, crossbite etc.",
+    },
+    {
+      para_title: "WHAT IS ADULT DENTITION?",
+      para_info:
+        "This is a stage where adult teeth or permanent teeth replace primary teeth which aid in appearance, speech, and digestion. During this phase, people can face many issues which can be corrected by Braces. These issues include:",
+      para_list: [
+        "Crowding / Haphazardly placed teeth can lead to poor oral hygiene and can also be the reason for Dental Caries (Cavities)",
+        "Improper Bite that affects chewing efficiency",
+        "Crooked teeth which can be a major reason for Periodontal problems such as Bleeding Gums, Halitosis (Bad Breath) and Tooth Mobility (Premature loss of teeth)",
+        "If the teeth are irregular, then it can cause calculus deposits leading to yellow teeth",
+        "Forwardly placed / Proclined Teeth which leads to more convex profile and posteriorly displaced chin",
+        "Open Bite",
+        "The spacing between teeth which can cause speech problems",
+      ],
+    },
+    {
+      para_title: "WHAT IS MIXED DENTITION?",
+      para_info:
+        "This is a stage when one has a combination of both primary and permanent teeth in the mouth is called Mixed Dentition. Wearing Braces in this stage cure the following problems:",
+      para_list: [
+        "Jaw Growth disorders at this stage can be corrected in a non-invasive manner which may later require surgical correction",
+        " Treatment of crooked teeth. This needs to be treated during an early stage else it will affect Child’s psychology",
+      ],
+    },
+    {
+      para_title: "WHAT IS THE RIGHT TIME TO GET BRACES?",
+      para_info:
+        "Every individual is different. Orthodontic treatment can be started as young as 7 years old. There is no upper limit in terms of age for Braces. If you have good oral health and firm teeth, you can get braces at any age. There is various kind of Orthodontic treatment available for all ages.",
+    },
+    {
+      para_title: "WHAT TYPES OF BRACES ARE AVAILABLE?",
+      para_list: [
+        "Metal Conventional Braces:- These are the traditional and most common type of braces. The metal braces used today are much more comfortable and smaller in size. These require elastics which come in a variety of colors to tie the wire to the braces. The wires use your body heat to move teeth more quickly and less painfully. There is no age limit attached to these, as patients of all ages can choose to straighten their teeth using metal braces.",
+        "Metal Self Ligating Braces:- These are metal Brackets with a shutter or lock system and do not require the use of elastic to tie the wire. In comparison to traditional metal braces, metal self-ligating braces are more comfortable and smaller in size. These are helpful in achieving arch expansion and minimize the need for extraction.",
+        "Ceramic Conventional Braces:- Ceramic braces are the ones with clear brackets. They use tooth color and blends more naturally with your teeth. The shape and size are the same as metal braces. These are less visible on the teeth and as a result, are preferred by older teenagers and adults who might have aesthetic concerns. Sometimes, even the wires used are of tooth color which makes them less noticeable. Being less prominent, they require more care and protection compared to metal braces as they are larger and more brittle. They require extra protection, hence, are used more in upper teeth than lower.",
+        "Lingual Braces:- Lingual Braces are heavy metal braces which are placed behind the teeth. These metallic braces can be made even of silver or gold. The individual Bracket is customized using CAD-CAM / 3D Designing. The treatment is highly aesthetic and less visible. This, however, can cause mild speech difficulties during the course of the treatment.",
+        "Aligners:- Clear Aligners are medical grade plastic trays that do not require any braces or wire. They are totally invisible hence; the aesthetic concerns are duly met and make them very appealing with adults who need orthodontic treatment. Though placed inside they do not have any food restrictions associated. People believe that being placed on the inside, they might face speech difficulties; which is a myth. On the other hand, transparent braces are highly comfortable and hygienic. Clear Aligners also hide existing gaps.",
+      ],
+    },
+    {
+      para_title: "COST OF BRACES AND ALIGNERS",
+      para_info:
+        "The cost of braces and aligners completely depends from person to person depending on the teeth alignment & multiple other factors. There is no standardisation of charges for braces and aligner treatment. At that first appointment, the dentist will examine you and take a digital scan of your cavity among other things. He or she will be able to offer you an exact estimate of the cost of the braces and aligners along with the duration of treatment based on this information.",
+    },
+    {
+      para_title: "POST TREATMENT CARE FOR BRACES",
+      para_list: [
+        "Brush & Flosstwice a day to keep your teeth healthy. Healthy teeth respond better to the treatment.",
+        "Visit your dentist on time for follow-up checks. Make a note of your appointments and follow suggestions, if any.",
+        "Be patient. The treatment duration may vary depending on the case. The teeth will take the time to adjust accordingly.",
+      ],
+    },
+    {
+      para_title: "DO’S WITH BRACES ON",
+      para_list: [
+        "Try and avoid sticky food like gum or caramel",
+        "Ask for a mouth guard, if you play a sport",
+        "Consume drinks which are low on sugar content and not carbonated",
+        "Brush after every meal and never let food stuck on your braces",
+        "Visit your dentist on every follow-up",
+      ],
+    },
+    {
+      para_title: "DON’TS WITH BRACES ON",
+      para_list: [
+        "Don’t chew hard food and ice",
+        "Do not bite your fingernails",
+        "Do not consume more than one soda a week",
+        "Brush after every meal and never let food stuck on your braces",
+        "Do not forget to floss like a boss",
+      ],
+    },
+  ],
+  laminates_veneers: [
+    {
+      para_title: "Dental Veneers",
+      para_info:
+        "Is your crooked teeth interfering with your smile? Now you can hide it with dental veneers. If you are looking for the best quality dental veneers, then SmyleXL should be your destination. We are one of the best dental clinics in Viman Nagar to offer any advanced cosmetic dentistry procedures in our clinic.",
+    },
+    {
+      para_title: "What is a dental veneer?",
+      para_info:
+        "Dental veneers are very thin shells of porcelain or resin material that are bonded over the front of your natural teeth to change the way that they look. From crowding to uneven teeth, veneers can be used for a variety of aesthetic situations, and results are amazing.",
+    },
+    {
+      para_title: "What is the material used for a veneer and why?",
+      para_info:
+        "Veneers are made of porcelain or resin material. They are tooth coloured materials. The best things about veneers is, they are stain resistant. We, at SmyleXL use porcelain for all our veneers. The porcelain camouflages with the other natural teeth and makes it look just like your original teeth, once placed inside the mouth.",
+    },
+    {
+      para_title: "What is the process to get a dental veneer done?",
+      para_info:
+        "To get a dental veneer done, we need to take the full mouth impression first. Then we will send it to the lab to fabricate the veneer. On the next appointment, we attach the veneer onto the tooth surface by means of bonding agent. The veneer has to snugly fit over the faulty tooth/teeth to cover its flaws and give it a natural look. So, a proper full mouth impression is very important to get an appropriate veneer done. Once placed in your mouth, it will look just like your natural tooth. No one can differentiate it.",
+    },
+    {
+      para_title: "Is getting a veneer a painful procedure?",
+      para_info:
+        "No, not at all. Getting a veneer done is not at all painful. It is a very easy procedure and absolutely hassle free and painless.",
+    },
+    {
+      para_title: "What is the cost of a dental veneer?",
+      para_info:
+        "A dental veneer is a cosmetic dentistry procedure. So, it is a bit costly as compared to other regular dental procedures. The average cost of a dental veneer being around 5k to 15 k per unit. We, at SmyleXL, can assure you the best quality porcelain veneer at the best price in town. Our motto is to satisfy our patients and make dental treatment affordable to all. So, if you want the best quality dental treatment at an affordable price, SmyleXL should be your destination. As a cosmetic hide all flaws in your appearance, same is the matter with cosmetic dental procedures. These procedures hide any flaws in the appearance of your teeth. If you have any faulty teeth and want to get rid of it, reach out to us at SmyleXL. We are always there to help you with any kind of dental problems.",
+    },
+  ],
+  advanced_gum_treatment: [
+    {
+      para_title: "Advanced Gum Treatment",
+      para_info:
+        "Nearly 70% of the people are affected by this disease at some point in their life. Though such a prevalent disease most people are unaware of the issue and the problems it can cause.",
+    },
+    {
+      para_title: "CAUSES OF GUM DISEASE",
+      para_info:
+        "The primary cause of Gum Disease is poor oral hygiene. If you are not brushing or flossing properly, then the chances of bacteria build-up are high. However, there are other reasons as well such as:",
+      para_list: [
+        "Smoking or chewing tobacco which makes difficult for gum tissues to repair",
+        "Consuming certain medications oral contraceptives, steroids, anticonvulsants, calcium channel blockers, and chemotherapy) lessen saliva flow that protects teeth and gums. Some medicines even cause the abnormal growth of gum tissue.",
+        "Crooked or misaligned teeth",
+        "Hormonal changes such as puberty, menstruation, menopause, pregnancy etc. can make your gums sensitive and as a result prone to gum diseases.",
+        "Certain illness such as cancer and HIV make your immune system weak are at higher risk of developing gum disease. Also, people who are diabetic are more prone to get Gum Disease.",
+        "Genetic susceptibility such as family history can contribute to gingivitis",
+      ],
+    },
+    {
+      para_title: "SYMPTOMS OF GUM DISEASES",
+      para_list: [
+        "Bleeding of gums when you brush or floss your teeth",
+        "Pulling of gums away from the teeth",
+        "Teeth loosening",
+        "Change in the way your teeth fit together when you bite (malocclusion)",
+        "Pus between teeth and gums",
+        "Pain while chewing",
+        "Teeth sensitivity",
+        "Tender, red or swollen gums",
+        "Ill-fitting partial dentures",
+        "Foul breath that doesn’t go away even after brushing",
+        "Deep space formation between gums and teeth",
+      ],
+    },
+    {
+      para_title: "STAGES OR TYPES OF GUM DISEASE",
+      para_info: "The stages of Gum Diseases are as follows:",
+      para_list: [
+        "GINGIVITIS- This is the first stage of gum disease, caused due to the plaque build-up on gums. If the plaque is not gone after brushing and flossing, then it can cause irritation. In this stage, you will notice your gums bleeding while brushing and flossing. Because bone is not affected in this stage, the chances of recovery are quite high.",
+        "PERIODONTITIS- Gingivitis if not treated on time, can lead to Periodontitis. This stage starts affecting your bone. Spaces are formed between bone and gum line as a result, bacteria will get a space food lodgement. If you visit your dentist on time then Periodontitis can be prevented. Periodontitis is an advanced gum disease.",
+        "ADVANCED PERIODONTITIS- This is the final stage of your gum disease where your bone is destroyed making your teeth loosen further. This can only be saved with surgery. And if the case is very advanced then even surgery cannot save your tooth, as a result, your dentist has to extract your tooth.",
+      ],
+    },
+    {
+      para_title: "TREATMENT OPTION OF GUM DISEASE",
+      para_info:
+        "The treatment option depends on the stage of Gum Disease. It also depends on your medical history and your overall health. The treatment options range from non-surgical therapies to surgical treatments.",
+    },
+    {
+      para_title: "The Non-Surgical Options Include:",
+      para_list: [
+        "Deep Cleaning- This is done in the very initial stage of developing a Gum Disease. Your dentist will remove the plaque or tartar (which hardens the tooth surface) from below and above the gum line. It is a preventive measure which helps you to save from getting gum disease.",
+        "Scaling & Root Planning- This is also a deep cleaning process. The only difference is that your dentist will give local anesthesia to start the process. Plaque and tartar are removed from above and below the gum line and after that, the rough spots are made smooth. The process of smoothing helps to remove the bacteria. This is done only if your dentist finds that you have calculus deposits under the gum.",
+      ],
+    },
+    {
+      para_title: "Surgical Treatment Includes:",
+      para_list: [
+        "Flap Surgery- In this, incision is made on the gums to remove the tartar. Sometimes the irregular surface of the bone is smoothened so that there are no areas for bacteria which cause this disease can hide. This method is used to remove the gap between gums and tooth.",
+        "Bone Graft- This method is used to regenerate the bone. The dentist use fragments of synthetic bone donated bone or your own bone which is used to replace the bone destroyed due to gum disease",
+        "Soft Tissue Graft- This method is used if the gums are receded. Gums are taken from the roof of the mouth and is stitched to the area of gum recession.",
+        "Guided Tissue Regeneration- Done along flap surgery when bone which supports your teeth are destroyed. Your dentist will insert a small piece of mesh-like fabric between your bone and gum tissue.",
+      ],
+    },
+    {
+      para_title: "PREVENTION OF GUM DISEASE",
+      para_list: [
+        "Brush your teeth twice a day (with a fluoride toothpaste).",
+        "Floss regularly to remove plaque from between teeth.",
+        "Visit your dentist after every 6 months for a routine check-up and professional cleaning.",
+        "Quit smoking",
+      ],
+    },
+    {
+      para_title: "PRICE FOR GUM DISEASE TREATMENT",
+      para_info:
+        "The progression and the location of gum disease are the main factors responsible for the difference in price for its treatment. Delaying gum problems not only affects oral health as a whole, it directly impacts overall health for instance, its directly related to increased risk of heart disease. At Smylexl Dental, in India, gum diseases are cured at competitive prices.",
+    },
+  ],
+  bad_breath_treatment: [
+    {
+      para_title: "What causes bad breath?",
+      para_info:
+        "Bad breath or halitosis can be caused by many factors. The most important being improper oral hygiene. If you don’t brush regularly twice a day and floss regularly, the food particles tend to stick on your teeth and gums which when acted upon by the oral bacteria causes infection. This infection might lead to a bad breath problem. Other than that, there are certain medical conditions like diabetes, acidity and kidney troubles which might also contribute in developing a bad breath.",
+    },
+    {
+      para_title: "How can I get rid of my bad breath?",
+      para_info:
+        "Bad breath can be treated by oral prophylaxis done by a dental surgeon. Oral prophylaxis is a routine dental procedure to keep your teeth and gingiva clean and healthy. In common terms it is known as scaling because it is done with instruments which are named as ultrasonic scalers, specifically designed for this purpose. If you are suffering from a bad breath problem, visit us at SmyleXL and get rid of the embarrassments in public.",
+    },
+    {
+      para_title: "Is oral prophylaxis a painful procedure?",
+      para_info: "No, oral prophylaxis is not at all a painful procedure.",
+    },
+    {
+      para_title: "What is the cost for getting a bad breath treatment?",
+      para_info:
+        "A bad breath treatment can cost you between 800k to 2k, depending upon your oral health. A bad breath problem is not just about the oral health, but affects your overall personality. When speaking in public, if you are having a bad breath problem, you either try to speak less or cover up your mouth while speaking. That affects your personality in a negative way. It is also very embarrassing to speak to someone when you have a bad breath. So, you should get it treated at the earliest. If you are suffering for any such problem, without any second thought, book an appointment with us at SmyleXL, the one stop solution for all your dental problems. We are looking forward to serve you with the best treatment in town.",
+    },
+  ],
+  teeth_cleaning: [
+    {
+      para_title:
+        "Who needs a teeth cleaning? How do I know if I need a teeth cleaning?",
+      para_info:
+        "Teeth cleaning is a routine dental procedure. We advise our patients for a regular teeth cleaning every 6 months to 1 year. Other than that, anyone with a stained teeth, bad breath or bleeding gums should immediately get a teeth cleaning done. If you are facing any of these conditions, it indicates that you need a teeth cleaning as early as possible.",
+    },
+    {
+      para_title: "What causes stained teeth?",
+      para_info:
+        "The main reason behind stained teeth is improper brushing of teeth. Sometimes, even after brushing twice a day, the teeth look yellowish or has stains! It might be because of the improper brushing technique. If you do not follow the proper way to brush your teeth, you can get stains. Stains can also be present on our teeth due to the food we eat or maybe the water we use. Tea, coffee, cigarette smoking and water with a large amount of iron are the main reasons for stained teeth. Now, whatever be the reason, there is no need to worry. We are there to clean your teeth and make it look bright and white.",
+    },
+    {
+      para_title: "What is the procedure to get a teeth cleaning?",
+      para_info:
+        "Teeth cleaning is known as an oral prophylaxis or a scaling. It is done in a single appointment by means of an ultrasonic scaler. An ultrasonic scaler is a machine designed only for scaling. It has metal tips and works on vibratory motion. The vibrations help to remove the stains and calculus present on the tooth surface and the gums. It needs about 15-20 minutes time to get a full mouth oral prophylaxis done.",
+    },
+    {
+      para_title: "Does teeth cleaning cause any teeth damage?",
+      para_info:
+        "Teeth cleaning is done by ultrasonic scalers which are specifically designed for oral prophylaxis. They do not cause any teeth damage. It is a general notion that a teeth cleaning causes damage to the enamel of the teeth. But it is not at all true. It is completely safe. In fact, it is a routine dental procedure. We advise all our patients to get an oral prophylaxis done every six months to maintain their oral health.",
+    },
+    {
+      para_title: "What is the cost for teeth cleaning?",
+      para_info:
+        "Teeth cleaning or oral prophylaxis is a regular dental procedure and is not costly. It will cost you approximately 1k to 1.5k to get a regular teeth cleaning done. Teeth cleaning or oral prophylaxis is a preventive dental procedure to save yourself from a number of oral health issues and gift yourself a set of healthy teeth and gums. It is advisable to get a teeth cleaning done every 6 months for a set of perfectly healthy teeth and gums. For any further queries, book an appointment with us. We will be happy to serve you.",
+    },
+  ],
+  mouth_ulcers: [
+    {
+      para_title: "CAUSES OF MOUTH ULCERS",
+      para_info:
+        "Women, children and the one having a family history are most prone to developing Mouth Ulcers. Though the exact cause of Mouth Ulcers could not be known several factors can attribute to the same:",
+      para_list: [
+        "Trauma or Injury from hard brushing, sports injury, accidents or dental work",
+        "Bacterial or Fungal infections",
+        "Stress can also be a reason and is most common in teens",
+        "Intake of acidic food or drinks",
+        "Hormonal changes",
+        "Mouth rinses which contain sodium lauryl sulfate",
+        "Lack of vitamins such as B-12, zinc, folate, and iron",
+      ],
+    },
+    {
+      para_title: "TREATMENT OF MOUTH ULCERS",
+      para_info:
+        "Mouth Ulcers do not need treatment as they go away with time. But if the ulcers are large and extremely painful please visit your dentist for treatment options:",
+      para_list: [
+        "Rinse with salt water and baking soda",
+        "Apply pain relief ointments like Orajel or Anbesol",
+        "Apply ice to canker sores or use cold water",
+        "Placing old tea bags on the sores",
+        "Drink cool chamomile tea",
+        "Milk of magnesia can also be a good option and is advised to place on Mouth Ulcers",
+      ],
+    },
+    {
+      para_title: "HOW TO AVOID MOUTH ULCER?",
+      para_list: [
+        "Eat a healthy and balanced diet",
+        "Avoid spicy and acidic food and beverage",
+        "Brush gently",
+        "Drink plenty of water",
+        "Adopt means to reduce stress",
+        "Have a proper sleep",
+      ],
+    },
+    {
+      para_title: "TYPES OF MOUTH ULCERS",
+      para_info:
+        "The uncomfortable and painful sores can be of various types. The most common amongst these are:",
+      para_list: [
+        "Canker Sores- These are small white patches with red borders. Being non-contagious the reason or cause is unknown but usually, trauma is the most common reason. They heal on their own with the time that might take a week and a half. Spicy, acidic and citrus food should be avoided.",
+        "Cold Sores- These appear in a cluster of red, raised blisters outside mouth especially lips. These are filled with fluid which can break making fluid to leak. Though they are highly contagious, yet they heal on their own in an about a week.",
+        "Candidiasis- It is a yeast infection which appears inside the mouth on soft and moist tissue. It appears as a white patch with a red base. The cause of developing such sore is fungus and people with a weak immune system or people with poor health or diabetic patients are more prone to these sores. If the case of sore is candidiasis, then one should seek advice from Dental Professional.",
+        "Leukoplakia- These are tough white patches which appear anywhere in the mouth. Though these are not painful or contagious but can have more serious concerns. Therefore, it is advised to visit a Dental Professional in this case.",
+      ],
+    },
+    {
+      para_title: "WHAT ARE THE CHARGES FOR MOUTH ULCER TREATMENT?",
+      para_info:
+        "Mouth ulcers need to be treated at their early stages so as to avoid any extra expenses that might incur later if the situation is neglected. For the best prices, you need to contact Pratibha Dental clinic.",
+    },
+  ],
 };
 
 export const faq = {
@@ -805,6 +1100,87 @@ export const faq = {
         "Aligners are costlier than traditional braces. Further, aligners cost vary depending upon a patient’s smile restoration needs. However, considering its effectiveness in getting a perfect smile, the treatment is worth all its costs.",
     },
   ],
+  braces_aligners: [
+    {
+      question: "How Long Does It Take To Put Braces On?",
+      answer:
+        "After bonding the dental braces, it takes about 1-2 hours for the process to finish.",
+    },
+    {
+      question: "Are Teeth Extracted For Orthodontic Treatment?",
+      answer:
+        "Usually, orthodontists do not recommend tooth extraction for fixing teeth braces. But if there is a serious crowding issue, one or two teeth need to be removed.",
+    },
+    {
+      question: "What Color Braces Should One Get?",
+      answer:
+        "There is a variety of braces available and it depends on the patient getting them. If the patient wishes so, they can even get transparent/ceramic braces as well. For more information on what kind of braces will be more suitable for your needs, visit a Dental specialist at Smylexl Dental",
+    },
+    {
+      question: "Are Braces Painful?",
+      answer:
+        "Getting or having braces is not painful. However, slight discomfort and soreness are usual after getting them. Apart from this, metal braces may feel to be a little tight after getting them readjusted on a follow-up visit to the orthodontist.",
+    },
+    {
+      question: "How Long Do One Need To Wear Braces?",
+      answer:
+        "The total duration of wearing dental braces depends on multiple factors that include the condition of teeth and compliance to oral care practices. Usually, the duration may vary from 18-36 months.",
+    },
+    {
+      question: "What Can You Not Eat With Braces On?",
+      answer:
+        "While wearing dental braces, one must definitely avoid any carbonated drinks, sticky food, and crunchy food including ice and popcorn.",
+    },
+  ],
+  advanced_gum_treatment: [
+    {
+      question: "Can Gum Disease Be Treated On Its Own?",
+      answer:
+        "No, gum diseases cannot be treated on its own. Gum diseases are caused by the development of tartar on the teeth leading to gum infection. This requires dental cleaning and good oral care routine. Get professional cleaning at your nearest Smylexl Dental clinic.",
+    },
+    {
+      question: " How Long Does It Take For Gum Disease To Be Cured?",
+      answer:
+        "Gum diseases are categorized into 4 stages, gingivitis, slight periodontal disease, moderate periodontal disease, and advanced periodontal disease. Curing gum diseases and gum infection depends on the stage at which treatment begins. The recovery time at stage one is 10-14 days.",
+    },
+    {
+      question: "Is Gum Disease Treatable?",
+      answer:
+        "Yes, gum diseases are treatable. The recovery and treatment duration depends on the stage at which a gum infection is identified and preventive measures are taken.",
+    },
+    {
+      question: "What Is The First Sign Of Gum Disease?",
+      answer:
+        "The first sign of gum disease is red, tender and swollen gums that cause discomfort and pain. Gums can also bleed while brushing, which is commonly considered as a sign of gingivitis-stage one of gum diseases.",
+    },
+  ],
+  mouth_ulcers: [
+    {
+      question: "Do Mouth Ulcers Lead To Oral Cancer?",
+      answer:
+        "Yes, sore mouth ulcers, which do not heal naturally and last for several weeks, can lead to oral cancer. Mouth ulcers can occur anywhere in the mouth but the once that develop under the tongue are particularly alarming. Book an Appointment for such cancer-related ulcer alarms.",
+    },
+    {
+      question: "How Are Mouth Sores Treated?",
+      answer:
+        "Mouth sores can be easily treated at home by rinsing the mouth regularly with warm salt water, drinking plenty of fluids, avoiding spicy food and applying an antiseptic gel to the ulcers. Usually, mouth ulcers heal within a week. In case they don’t, consider visiting your nearest dentist.",
+    },
+    {
+      question: "How Long Does It Take To Heal Ulcers??",
+      answer:
+        "Mouth ulcers usually self heal within one to two weeks. However, serious and painful ulcers can take up to 6 weeks to heal. If you are prone to mouth ulcers, visit the best dental care near you for immediate relief from painful canker sores.",
+    },
+    {
+      question: "Can One Apply Toothpaste To Ulcers?",
+      answer:
+        "Generally, toothpaste can help to treat mouth ulcers. However, for people who are prone to mouth ulcers, toothpaste with high SLS (Sodium lauryl sulfate) may even aggravate ulcers. Hence, it is best to seek advice from a dentist nearby for ulcers that are painful and not self-healing.",
+    },
+    {
+      question: "How Can You Get Rid Of Mouth Ulcers Permanently?",
+      answer:
+        "A healthy diet and strict oral hygiene are the secrets to an ulcer free mouth. Mouth ulcers can be caused due to underlying health reasons like Vitamin B12 deficiency and iron deficiency too. Patients prone to mouth ulcers must consult the best dentist near them for a permanent solution.",
+    },
+  ],
 };
 
 export const card_data = {
@@ -814,90 +1190,105 @@ export const card_data = {
       title: "Root Canal Treatment",
       description:
         "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
-      link: "",
+      link: "/root-canal-treatment",
     },
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
       title: "Wisdom Tooth Removal",
       description:
         "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
-      link: "",
+      link: "/wisdom-tooth-removal",
     },
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
       title: "Jaw Pain",
       description:
         "Jaw disorders are a family of problems related to your complex jaw joint.",
-      link: "",
+      link: "/jaw-pain-treatment",
     },
   ],
   teeth_replacement: [
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-      title: "Root Canal Treatment",
+      title: "Dentures",
       description:
-        "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
-      link: "",
+        "So… you have a missing tooth and you’ve decided you’re ready to do",
+      link: "/dentures",
     },
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-      title: "Wisdom Tooth Removal",
-      description:
-        "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
-      link: "",
+      title: "Dental Implants",
+      description: "Dental implant is popular way to restore missing teeth.",
+      link: "/dental-implants",
     },
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-      title: "Jaw Pain",
+      title: "Bridges & Crowns",
       description:
-        "Jaw disorders are a family of problems related to your complex jaw joint.",
-      link: "",
+        "Dental Crowns or “caps” as some call them, are custom-made covers",
+      link: "/bridges-crowns",
     },
   ],
   cosmetic_dentistry: [
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-      title: "Root Canal Treatment",
+      title: "Smile Makeover",
       description:
-        "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
-      link: "",
+        "Who doesn’t love a beautiful smile? The most beautiful smiles are created using cosmetic dentistry.",
+      link: "/smile-makeover",
     },
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-      title: "Wisdom Tooth Removal",
+      title: "Teeth Whitening",
       description:
-        "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
-      link: "",
+        "Seems as though just about everyone is doing it these days! Getting that “Hollywood Smile”",
+      link: "/teeth-whitening",
     },
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-      title: "Jaw Pain",
+      title: "Clear Aligners",
       description:
-        "Jaw disorders are a family of problems related to your complex jaw joint.",
-      link: "",
+        "Orthodontics has evolved significantly in recent times. Whilst it was once an option just offered to children",
+      link: "/clear-aligners",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Braces & Aligners",
+      description:
+        "Orthodontics has evolved significantly in recent times. Whilst it was once an option just offered to children",
+      link: "/braces-aligners",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Laminates & Veneers",
+      description:
+        "Dental veneers are very thin shells of porcelain or resin material that are bonded over the front of your natural teeth",
     },
   ],
   preventive_dentistry: [
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-      title: "Root Canal Treatment",
-      description:
-        "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
-      link: "",
+      title: "Advanced Gum Treatment",
+      description: "Advanced Gum Treatment",
+      link: "/advanced-gum-treatment",
     },
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-      title: "Wisdom Tooth Removal",
-      description:
-        "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
-      link: "",
+      title: "Bad Breath Treatment",
+      description: "Bad Breath Treatment",
+      link: "/bad-breath-treatment",
     },
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-      title: "Jaw Pain",
-      description:
-        "Jaw disorders are a family of problems related to your complex jaw joint.",
-      link: "",
+      title: "Teeth Cleaning",
+      description: "Teeth Cleaning",
+      link: "/teeth-cleaning",
+    },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      title: "Mouth Ulcers",
+      description: "Mouth Ulcers",
+      link: "/mouth-ulcers",
     },
   ],
   kids_dentistry: [

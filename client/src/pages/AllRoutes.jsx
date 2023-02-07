@@ -57,7 +57,7 @@ const AllRoutes = () => {
         element={<AdvancedGumTreatment />}
       />
       <Route path="/bad-breath-treatment" element={<BadBreadthTreatment />} />
-      <Route path="/teeth-whitening" element={<TeethCleaning />} />
+      <Route path="/teeth-cleaning" element={<TeethCleaning />} />
       <Route path="/mouth-ulcers" element={<MouthUlcers />} />
 
       <Route path="/kids-dentistry" element={<KidsDentistry />} />
