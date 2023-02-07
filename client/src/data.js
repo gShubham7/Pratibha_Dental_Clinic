@@ -1330,19 +1330,20 @@ export const promise_card_data = [
 
 export const circle_card_data = [
   {
-    image: "https://i.ibb.co/hZ7yxPv/Im-in-pain-01-150x150.png",
+    image:
+      "https://www.wcdentalarts.com/wp-content/uploads/2019/03/shutterstock_682397194.jpg",
     title: "I'm In Pain",
   },
   {
-    image: "https://i.ibb.co/hZ7yxPv/Im-in-pain-01-150x150.png",
+    image: "https://www.khangura.com/wp-content/uploads/2021/06/tooth-missing.jpg",
     title: "I Have Missing Teeth",
   },
   {
-    image: "https://i.ibb.co/hZ7yxPv/Im-in-pain-01-150x150.png",
+    image: "https://www.arrowheaddental.com/wp-content/uploads/2018/02/perfect-teeth.jpg",
     title: "I Want Better Smile",
   },
   {
-    image: "https://i.ibb.co/hZ7yxPv/Im-in-pain-01-150x150.png",
+    image: "https://i.ndtvimg.com/i/2015-09/teeth_650x400_71441694875.jpg",
     title: "I Want To Be Cavity Free",
   },
 ];
