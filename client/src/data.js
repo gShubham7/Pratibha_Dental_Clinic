@@ -125,7 +125,7 @@ export const banner_data = {
   },
   preventive_dentistry: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://www.lndentals.com/images/Comprehensive-Exams-Prophys.jpg",
     banner_question: "Preventive Dentistry",
     banner_sub_info:
       "The practice of looking after your gums and teeth and maintaining good oral hygiene to keep them healthy is known as preventive dentistry. The main aim is to avoid cavities, gum infections, enamel wear, tooth loss and more.",
@@ -1193,14 +1193,14 @@ export const card_data = {
       link: "/root-canal-treatment",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/3954/3954466.png",
       title: "Wisdom Tooth Removal",
       description:
         "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
       link: "/wisdom-tooth-removal",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://static.wixstatic.com/media/4d8b13_1310f7b6917d4cc7954241e27f1f7c5c~mv2.gif",
       title: "Jaw Pain",
       description:
         "Jaw disorders are a family of problems related to your complex jaw joint.",
@@ -1209,20 +1209,20 @@ export const card_data = {
   ],
   teeth_replacement: [
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://icon-library.com/images/denture-icon/denture-icon-3.jpg",
       title: "Dentures",
       description:
         "So… you have a missing tooth and you’ve decided you’re ready to do",
       link: "/dentures",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/9450/9450104.png",
       title: "Dental Implants",
       description: "Dental implant is popular way to restore missing teeth.",
       link: "/dental-implants",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441073.png",
       title: "Bridges & Crowns",
       description:
         "Dental Crowns or “caps” as some call them, are custom-made covers",
@@ -1231,35 +1231,35 @@ export const card_data = {
   ],
   cosmetic_dentistry: [
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/3501/3501297.png",
       title: "Smile Makeover",
       description:
         "Who doesn’t love a beautiful smile? The most beautiful smiles are created using cosmetic dentistry.",
       link: "/smile-makeover",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/7011/7011041.png",
       title: "Teeth Whitening",
       description:
         "Seems as though just about everyone is doing it these days! Getting that “Hollywood Smile”",
       link: "/teeth-whitening",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/5915/5915010.png",
       title: "Clear Aligners",
       description:
         "Orthodontics has evolved significantly in recent times. Whilst it was once an option just offered to children",
       link: "/clear-aligners",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/1471/1471791.png",
       title: "Braces & Aligners",
       description:
         "Orthodontics has evolved significantly in recent times. Whilst it was once an option just offered to children",
       link: "/braces-aligners",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441136.png",
       title: "Laminates & Veneers",
       description:
         "Dental veneers are very thin shells of porcelain or resin material that are bonded over the front of your natural teeth",
@@ -1267,25 +1267,25 @@ export const card_data = {
   ],
   preventive_dentistry: [
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/2441/2441169.png",
       title: "Advanced Gum Treatment",
       description: "Advanced Gum Treatment",
       link: "/advanced-gum-treatment",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/3895/3895197.png",
       title: "Bad Breath Treatment",
       description: "Bad Breath Treatment",
       link: "/bad-breath-treatment",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/4100/4100551.png",
       title: "Teeth Cleaning",
       description: "Teeth Cleaning",
       link: "/teeth-cleaning",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+      image: "https://cdn-icons-png.flaticon.com/512/2960/2960959.png",
       title: "Mouth Ulcers",
       description: "Mouth Ulcers",
       link: "/mouth-ulcers",

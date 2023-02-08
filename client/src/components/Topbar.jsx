@@ -1,4 +1,4 @@
-import { Button, Divider, Heading, HStack } from "@chakra-ui/react";
+import { Button, Divider, Heading, HStack, Image } from "@chakra-ui/react";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -6,14 +6,22 @@ const Topbar = () => {
   const navigate = useNavigate();
   return (
     <>
-      <HStack
-        justifyContent={"space-between"}
-        display={{ base: "block", md: "flex" }}
-        p={3}
-      >
-        <Heading display={{ base: "none", md: "block" }}>
-          Pratibha Dental Clinic
-        </Heading>
+      <HStack display={"flex"} justifyContent={"space-between"}>
+        <HStack
+          // justifyContent={"space-between"}
+          display={{ base: "none", md: "flex" }}
+          p={3}
+        >
+          <Image
+            src="/LOGO.jpeg"
+            w={"16"}     
+            borderRadius={"50%"}    
+            border={"1px solid gray"} 
+          />
+          <Heading>
+            Pratibha Dental
+          </Heading>
+        </HStack>
         <Button
           p={2}
           colorScheme="purple"

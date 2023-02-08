@@ -14,6 +14,7 @@ import {
   useDisclosure,
   useColorMode,
   Switch,
+  Image,
 } from "@chakra-ui/react";
 import {
   HamburgerIcon,
@@ -68,7 +69,14 @@ export default function Navbar() {
             color={useColorModeValue("gray.800", "white")}
             display={{ md: "none" }}
           >
-            <NavLink to={"/"}>LOGO</NavLink>
+            <NavLink to={"/"}>
+              <Image
+                src="/LOGO.jpeg"
+                w={"16"}
+                borderRadius={"50%"}
+                border={"1px solid gray"}
+              />
+            </NavLink>
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }}>

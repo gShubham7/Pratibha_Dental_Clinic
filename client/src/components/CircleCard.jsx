@@ -18,8 +18,8 @@ const CircleCard = ({ data }) => {
         mx="auto"
       >
         <Image
-          w="full"
-          h={56}
+          w={"full"}
+          h={"36"}
           fit="cover"
           src={image}
           alt="avatar"
@@ -28,12 +28,13 @@ const CircleCard = ({ data }) => {
         <Box py={5} textAlign="center">
           <Text
             display="block"
-            fontSize="2xl"
+            fontSize="sm"
             color="gray.800"
             _dark={{
               color: "white",
             }}
             fontWeight="bold"
+            overflow={"hidden"}
           >
            {title}
           </Text>         

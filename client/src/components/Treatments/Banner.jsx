@@ -26,27 +26,15 @@ const Banner = ({ data }) => {
           lg: "lg",
         }}
         // mt={"24"}
+        alignItems={"center"}
       >
         <Box
           w={{
             lg: "50%",
-          }}
+          }}        
         >
-          <Box
-          // w={"full"}
-          // h={{
-          //   base: "md",
-          //   // lg: "md",
-          // }}
-          // rounded={{
-          //   lg: "lg",
-          // }}
-          // bgSize="cover"
-          // style={{
-          //   backgroundImage: `url(${banner_image})`,
-          // }}
-          >
-            <Image src={banner_image} rounded={{ lg: "lg" }} />
+          <Box>
+            <Image src={banner_image} rounded={{ lg: "lg" }} w={"full"} />
           </Box>
         </Box>
 
