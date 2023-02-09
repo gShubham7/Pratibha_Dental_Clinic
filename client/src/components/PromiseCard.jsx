@@ -55,8 +55,8 @@ const PromiseCard = ({ data }) => {
             objectFit={"cover"}
             src={image}
             m="auto"
-            border={"1px solid black"}
-            borderRadius={"50%"}
+            // border={"1px solid black"}
+            // borderRadius={"50%"}
           />
         </Box>
         <Stack pt={10} align={"center"}>

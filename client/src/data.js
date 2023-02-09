@@ -71,7 +71,7 @@ export const banner_data = {
   },
   cosmetic_dentistry: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://www.yourdentistryguide.com/wp-content/uploads/2017/11/shade-guide-min.jpg",
     banner_question: "Cosmetic Dentistry",
     banner_sub_info:
       "The practice of looking after your gums and teeth and maintaining good oral hygiene to keep them healthy is known as preventive dentistry. The main aim is to avoid cavities, gum infections, enamel wear, tooth loss and more.",
@@ -80,7 +80,7 @@ export const banner_data = {
   },
   smile_makeover: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://www.eastlanddental.com/wp-content/uploads/2022/04/teeth-cleaning-dentist-bloomington-il-346x188.jpg",
     banner_question: "What Is Smile Makeover?",
     banner_sub_info:
       "Smile Makeover is a process of improving the appearance of a smile through various procedures which are cosmetic or surgical.",
@@ -89,7 +89,7 @@ export const banner_data = {
   },
   teeth_whitening: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://stmarysdentalpractice.co.uk/wp-content/uploads/2021/10/Tw2.jpg",
     banner_question: "WHAT IS TEETH WHITENING?",
     banner_sub_info:
       "Teeth whitening is a process of removing stains from the tooth surface and restoring the natural color of the teeth. Whitening is a one-time procedure performed by a dentist.",
@@ -98,7 +98,7 @@ export const banner_data = {
   },
   clear_aligners: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://snazzyalign.com/contents/uploads/2020/05/invisible-aligners-768x512.jpg",
     banner_question: "WHAT ARE CLEAR ALIGNERS?",
     banner_sub_info:
       "Clear Aligners are transparent trays made of special material which are used to straighten teeth just like braces.",
@@ -107,7 +107,7 @@ export const banner_data = {
   },
   braces_aligners: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://barriedentist.ca/wp-content/uploads/2018/05/understanding-metal-braces-1200x720.jpg",
     banner_question: "WHAT ARE BRACES?",
     banner_sub_info:
       "Dental braces are appliances which are used to align or straighten the teeth and guide the teeth to the corrected position. They are made up of wires, brackets, and bands.",
@@ -116,7 +116,7 @@ export const banner_data = {
   },
   laminates_veneers: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://www.fmsdental.com/wp-content/uploads/2022/09/Dental-Laminates-in-hyderabad-2.webp",
     banner_question: "LAMINATES AND VENEERS",
     banner_sub_info:
       "The outer portion or Crown of a tooth is a three-layered structure namely – Enamel, Dentin & Pulp.If the tooth decay is limited to the first two layers, it can be corrected with Filling/ Restoration.",
@@ -134,7 +134,7 @@ export const banner_data = {
   },
   advanced_gum_treatment: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://static.wixstatic.com/media/fc382d_53d5195bb3074dcc9e43c6718532f20a~mv2.jpg/v1/fill/w_640,h_480,fp_0.50_0.50,lg_2,q_80,usm_0.66_1.00_0.01,enc_auto/fc382d_53d5195bb3074dcc9e43c6718532f20a~mv2.jpg",
     banner_question: "WHAT ARE GUM DISEASES?",
     banner_sub_info:
       "Gum disease is an inflammation of the gum line that can progress to affect the bone that surrounds and supports your teeth.",
@@ -143,14 +143,14 @@ export const banner_data = {
   },
   bad_breath_treatment: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://www.drmassiah.com/wp-content/uploads/bad-breath-920x613.jpg",
     banner_question: "Bad Breath Treatment",
     banner_sub_info:
       "If you are looking for a bad breath treatment in Viman Nagar, then SmyleXL is your destination. We are one of the best dental clinics in Viman Nagar with all the latest equipment and dental surgeons from all specialities on board to give you a truly wonderful treatment experience.",
   },
   teeth_cleaning: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://artisandentalmadison.com/wp-content/uploads/sites/157/2020/09/shutterstock_249249403cx.jpg",
     banner_question: "Teeth Cleaning",
     banner_sub_info:
       "A professional teeth cleaning and polishing is necessary to eliminate the dental problems such as gum disease, cavity, sensitivity, and tooth loss.",
@@ -168,7 +168,7 @@ export const banner_data = {
   },
   kids_dentistry: {
     banner_image:
-      "https://images.unsplash.com/photo-1593642532400-2682810df593?ixlib=rb-1.2.1&ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80",
+      "https://aluxdental.com/wp-content/uploads/2019/08/pediatric-dentistry-In-Hyderabad.png",
     banner_question: "WHY IS KIDS DENTISTRY IMPORTANT?",
     banner_sub_info:
       "Humans start teething when they are as young as 6 months old and develop their set of primary ‘milk’ teeth.At the age of 6-7 years, humans start losing their milk teeth and the permanent set of teeth start emerging. Because the milk teeth will eventually fall off, some parents tend to ignore taking their child to a dentist.",
@@ -1200,7 +1200,8 @@ export const card_data = {
       link: "/wisdom-tooth-removal",
     },
     {
-      image: "https://static.wixstatic.com/media/4d8b13_1310f7b6917d4cc7954241e27f1f7c5c~mv2.gif",
+      image:
+        "https://static.wixstatic.com/media/4d8b13_1310f7b6917d4cc7954241e27f1f7c5c~mv2.gif",
       title: "Jaw Pain",
       description:
         "Jaw disorders are a family of problems related to your complex jaw joint.",
@@ -1263,6 +1264,7 @@ export const card_data = {
       title: "Laminates & Veneers",
       description:
         "Dental veneers are very thin shells of porcelain or resin material that are bonded over the front of your natural teeth",
+        link: "/laminates-veneers",
     },
   ],
   preventive_dentistry: [
@@ -1284,29 +1286,29 @@ export const card_data = {
       description: "Teeth Cleaning",
       link: "/teeth-cleaning",
     },
-    {
-      image: "https://cdn-icons-png.flaticon.com/512/2960/2960959.png",
-      title: "Mouth Ulcers",
-      description: "Mouth Ulcers",
-      link: "/mouth-ulcers",
-    },
+    // {
+    //   image: "https://cdn-icons-png.flaticon.com/512/2960/2960959.png",
+    //   title: "Mouth Ulcers",
+    //   description: "Mouth Ulcers",
+    //   link: "/mouth-ulcers",
+    // },
   ],
   kids_dentistry: [
     {
       image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
       title: "Root Canal Treatment",
       description:
-        "Use the term, “root canal,” and many folks start shaking. “Oh no, anything but that!”",
+        "Root Canal Treatment In Milk Teeth",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-      title: "Wisdom Tooth Removal",
+      image: "https://q9u3j2b3.rocketcdn.me/wp-content/uploads/2020/08/habit-breaking-appliance-500x286.jpg",
+      title: "Oral Habits",
       description:
-        "A detailed exam or X-rays will be done to ensure an extraction is necessary.",
+        "Oral habit breaking appliances",
     },
     {
-      image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
-      title: "Jaw Pain",
+      image: "https://d1l9wtg77iuzz5.cloudfront.net/assets/5501/224807/original.png?1522338617",
+      title: "Preventive Treatment",
       description:
         "Jaw disorders are a family of problems related to your complex jaw joint.",
     },
@@ -1315,15 +1317,15 @@ export const card_data = {
 
 export const promise_card_data = [
   {
-    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+    image: "https://cdn-icons-png.flaticon.com/512/4807/4807695.png",
     title: "Experienced Dentists",
   },
   {
-    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+    image: "https://cdn-icons-png.flaticon.com/512/4514/4514008.png",
     title: "Personalised Care",
   },
   {
-    image: "https://cdn-icons-png.flaticon.com/512/2441/2441082.png",
+    image: "https://cdn-icons-png.flaticon.com/512/625/625599.png",
     title: "Transparent Pricing",
   },
 ];
@@ -1332,18 +1334,24 @@ export const circle_card_data = [
   {
     image:
       "https://www.wcdentalarts.com/wp-content/uploads/2019/03/shutterstock_682397194.jpg",
-    title: "I'm In Pain",
+    title: "Tooth Pain",
+    link: "/pain-relief",
   },
   {
-    image: "https://www.khangura.com/wp-content/uploads/2021/06/tooth-missing.jpg",
-    title: "I Have Missing Teeth",
+    image:
+      "https://www.khangura.com/wp-content/uploads/2021/06/tooth-missing.jpg",
+    title: "Missing Teeth",
+    link: "/teeth-replacement",
   },
   {
-    image: "https://www.arrowheaddental.com/wp-content/uploads/2018/02/perfect-teeth.jpg",
-    title: "I Want Better Smile",
+    image:
+      "https://truenorthfamilydental.com/wp-content/uploads/2016/12/Pediatric-Dentistry.jpg",
+    title: "Little Smile",
+    link: "/kids-dentistry",
   },
   {
     image: "https://i.ndtvimg.com/i/2015-09/teeth_650x400_71441694875.jpg",
-    title: "I Want To Be Cavity Free",
+    title: "Cavity Free Teeth",
+    link: "/preventive-dentistry",
   },
 ];

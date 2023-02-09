@@ -8,13 +8,13 @@ import { circle_card_data, promise_card_data } from "../data";
 const Home = () => {
   return (
     <>
-      {/* <video
+      <video
         style={{ width: "100vw"}}
         src="/homepage-video.mp4"
         autoPlay
         loop
         muted
-      /> */}
+      />
       <Box textAlign="center" mt={10}>
         <Text>---Smile---</Text>
         <Heading>HELP US TO HELP YOU</Heading>
