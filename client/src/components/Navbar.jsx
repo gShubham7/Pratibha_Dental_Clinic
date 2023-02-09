@@ -258,10 +258,10 @@ const MobileNavItem = ({ label, children, to }) => {
 };
 
 const NAV_ITEMS = [
-  {
-    label: "Home",
-    to: "/",
-  },
+  // {
+  //   label: "Home",
+  //   to: "/",
+  // },
   {
     label: "Promise",
     to: "/promise",
@@ -301,7 +301,7 @@ const NAV_ITEMS = [
   },
   {
     label: "About Us",
-    to: "/about",
+    to: "/about-us",
   },
   {
     label: "Contact",
