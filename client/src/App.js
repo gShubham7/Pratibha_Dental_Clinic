@@ -10,7 +10,7 @@ function App() {
     <>
       <div className="App">
         <Topbar />
-        <Navbar />
+        <Navbar />         
         <AllRoutes />
         <Footer />
       </div>

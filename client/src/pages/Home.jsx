@@ -32,6 +32,7 @@ const Home = () => {
         <Text>---Smile Stories---</Text>
         <Heading>WHAT ARE OUR PATIENTS SAY</Heading>
         {/* GOOGLE REVIEW CARD */}
+        <div className="elfsight-app-1173d6dc-ae10-44bc-8189-d0adfff27c93"></div>
         <Newsletter />
       </Box>
     </>

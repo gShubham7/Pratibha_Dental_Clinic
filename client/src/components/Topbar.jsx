@@ -1,6 +1,7 @@
 import { Button, Divider, Heading, HStack, Image } from "@chakra-ui/react";
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
+import AppointmentModal from "./AppointmentModal";
 
 const Topbar = () => {
   const navigate = useNavigate();
@@ -21,14 +22,15 @@ const Topbar = () => {
             <Heading>Pratibha Dental</Heading>
           </HStack>
         </NavLink>
-        <Button
+        {/* <Button
           p={2}
           colorScheme="purple"
           w={{ base: "full", md: "xs" }}
           onClick={() => navigate("/book-appointment")}
         >
           Book Apponitment
-        </Button>
+        </Button> */}
+        <AppointmentModal/>
       </HStack>
       <Divider />
     </>
