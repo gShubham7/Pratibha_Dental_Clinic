@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Blog from "./Blog";
-import BookAppointment from "./BookAppointment";
 import Home from "./Home";
 import PatientSafety from "./PatientSafety";
 import OurPromise from "./OurPromise";
@@ -65,8 +64,7 @@ const AllRoutes = () => {
       <Route path="/patient-safety" element={<PatientSafety />} />
       <Route path="/blog" element={<Blog />} />
       <Route path="/about-us" element={<AboutUs />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/book-appointment" element={<BookAppointment />} />
+      <Route path="/contact" element={<Contact />} />      
     </Routes>
   );
 };

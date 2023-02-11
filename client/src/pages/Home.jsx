@@ -2,7 +2,8 @@ import { Box, Heading, SimpleGrid, Text } from "@chakra-ui/react";
 import React from "react";
 import CircleCard from "../components/CircleCard";
 import Newsletter from "../components/Newsletter";
-import PromiseCard from "../components/PromiseCard";
+import PromisesCard from "../components/Treatments/PromisesCard";
+// import PromiseCard from "../components/PromiseCard";
 import { circle_card_data, promise_card_data } from "../data";
 
 const Home = () => {
@@ -24,11 +25,12 @@ const Home = () => {
           ))}
         </SimpleGrid>
         <Heading p={10}>Our Promise</Heading>
-        <SimpleGrid columns={{ base: 1, md: 3 }} mb={10}>
+        {/* <SimpleGrid columns={{ base: 1, md: 3 }} mb={10}>
           {promise_card_data.map((el) => (
             <PromiseCard key={el.title} data={el} />
           ))}
-        </SimpleGrid>
+        </SimpleGrid> */}
+        <PromisesCard />
         <Text>---Smile Stories---</Text>
         <Heading>WHAT ARE OUR PATIENTS SAY</Heading>
         {/* GOOGLE REVIEW CARD */}
