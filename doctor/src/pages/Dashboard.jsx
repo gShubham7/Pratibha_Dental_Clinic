@@ -30,16 +30,20 @@ import {
   FiBell,
   FiChevronDown,
 } from "react-icons/fi";
+import { GiNotebook, GiHospitalCross } from "react-icons/gi";
+import { AiOutlineUser } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
+import AllRoutes from "./AllRoutes"
 
 const LinkItems = [
-  { name: "Home", icon: FiHome },
-  { name: "Trending", icon: FiTrendingUp },
-  { name: "Explore", icon: FiCompass },
-  { name: "Favourites", icon: FiStar },
-  { name: "Settings", icon: FiSettings },
+  { name: "Home", icon: FiHome, link: "/" },
+  { name: "Appointments", icon: GiNotebook, link: "/appointments" },
+  { name: "Doctors", icon: GiHospitalCross, link: "/doctors" },
+  { name: "Patients", icon: AiOutlineUser, link: "/patients" },
+  { name: "Settings", icon: FiSettings, link: "/settings" },
 ];
 
-const Dashboard = ({ children }) => {
+const Dashboard = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <Box minH="100vh" bg={useColorModeValue("gray.100", "gray.900")}>
@@ -63,7 +67,8 @@ const Dashboard = ({ children }) => {
       {/* mobilenav */}
       <MobileNav onOpen={onOpen} />
       <Box ml={{ base: 0, md: 60 }} p="4">
-        {children}
+        {/* All Other Things will be shown here */}
+        <AllRoutes />
       </Box>
     </Box>
   );
@@ -88,7 +93,7 @@ const SidebarContent = ({ onClose, ...rest }) => {
         <CloseButton display={{ base: "flex", md: "none" }} onClick={onClose} />
       </Flex>
       {LinkItems.map((link) => (
-        <NavItem key={link.name} icon={link.icon}>
+        <NavItem key={link.name} icon={link.icon} link={link.link}>
           {link.name}
         </NavItem>
       ))}
@@ -96,10 +101,10 @@ const SidebarContent = ({ onClose, ...rest }) => {
   );
 };
 
-const NavItem = ({ icon, children, ...rest }) => {
+const NavItem = ({ link, icon, children, ...rest }) => {
   return (
-    <Link
-      href="#"
+    <NavLink
+      to={link}
       style={{ textDecoration: "none" }}
       _focus={{ boxShadow: "none" }}
     >
@@ -128,7 +133,7 @@ const NavItem = ({ icon, children, ...rest }) => {
         )}
         {children}
       </Flex>
-    </Link>
+    </NavLink>
   );
 };
 
