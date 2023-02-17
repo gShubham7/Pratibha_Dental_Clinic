@@ -3,6 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const connect = require("./config/db");
 const cors = require("cors");
+const DoctorRoute = require("./routes/doctor");
 
 const PORT = process.env.PORT;
 
@@ -15,6 +16,8 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send("Hello!");
 });
+
+app.use("/doctors", DoctorRoute);
 
 app.listen(PORT, async () => {
   await connect();
