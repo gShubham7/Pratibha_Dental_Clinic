@@ -3,6 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const connect = require("./config/db");
 const cors = require("cors");
+const AuthRoute = require("./routes/auth");
 const DoctorRoute = require("./routes/doctor");
 
 const PORT = process.env.PORT;
@@ -17,6 +18,7 @@ app.get("/", (req, res) => {
   res.send("Hello!");
 });
 
+app.use("/auth", AuthRoute);
 app.use("/doctors", DoctorRoute);
 
 app.listen(PORT, async () => {

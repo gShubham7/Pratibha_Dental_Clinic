@@ -8,8 +8,7 @@ const authMiddleware = async (req, res, next) => {
   if (token) {
     const verification = jwt.verify(token, SECRET_KEY);
     if (verification) {
-      req.userId = verification.id;
-      req.userRole = verification.role;
+      req.userId = verification.id;      
       next();
     } else {
       res.status(401).send("Operation not allowed");

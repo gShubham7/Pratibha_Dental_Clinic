@@ -1,5 +1,5 @@
 const express = require("express");
-const DoctorModel = require("../models/doctorModel");
+const DoctorModel = require("../models/DoctorModel");
 
 const allDoctors = async (req, res) => {
   try {
@@ -19,27 +19,27 @@ const singleDoctor = async (req, res) => {
   }
 };
 const addDoctor = async (req, res) => {
-  const { firstName, lastName, speciality, email, contact } = req.body;
+  const { firstName, lastName, speciality, contact } = req.body;
   try {
-    const newDoc = await new DoctorModel({
+    const newDoc = new DoctorModel({
       firstName,
       lastName,
       speciality,
-      email,
       contact,
     });
-    newDoc.save();
+    await newDoc.save();
     return res.status(201).send(newDoc);
   } catch (error) {
     return res.status(500).send(error.message);
   }
 };
 const editDoctor = async (req, res) => {
-  const { firstName, lastName, speciality, email, contact } = req.body;
+  const { id } = req.params;
+  const docDetails = req.body;
   try {
-    const updateDoc = await DoctorModel.findOneAndUpdate(
-      { email },
-      { firstName, lastName, speciality, email, contact },
+    const updateDoc = await DoctorModel.findByIdAndUpdate(
+      { _id: id },
+      docDetails,
       { new: true }
     );
     return res.status(200).send(updateDoc);

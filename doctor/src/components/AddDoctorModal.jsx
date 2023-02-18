@@ -13,8 +13,9 @@ import {
   useToast,
 } from "@chakra-ui/react";
 import { useState } from "react";
+import axios from "axios";
 
-const AddDoctorModal = ({ isOpen, onClose }) => {
+const AddDoctorModal = ({ isOpen, onClose, fetchDocs }) => {
   const [doctor, setDoctor] = useState({});
   const toast = useToast();
 
@@ -22,8 +23,8 @@ const AddDoctorModal = ({ isOpen, onClose }) => {
     const { name, value } = e.target;
     setDoctor({ ...doctor, [name]: value });
   };
-  const handleSubmit = () => {
-    if (Object.values(doctor).length < 5) {
+  const handleSubmit = async () => {
+    if (Object.values(doctor).length < 4) {
       return toast({
         title: "All fields are required",
         position: "bottom-left",
@@ -32,7 +33,34 @@ const AddDoctorModal = ({ isOpen, onClose }) => {
         isClosable: true,
       });
     }
-    // addDoc_api Call
+    try {
+      const config = {
+        headers: {
+          authorization: localStorage.getItem("token"),
+        },
+      };
+      const { data } = await axios.post(
+        "http://localhost:8080/doctors",
+        doctor,
+        config
+      );
+      toast({
+        title: "Doctor added Successfully!",
+        position: "bottom-left",
+        status: "success",
+        duration: 3000,
+        isClosable: true,
+      });
+    } catch (error) {
+      toast({
+        title: "Something went wrong!",
+        position: "bottom-left",
+        status: "error",
+        duration: 3000,
+        isClosable: true,
+      });
+    }
+    fetchDocs();
     onClose();
   };
   return (
@@ -62,14 +90,6 @@ const AddDoctorModal = ({ isOpen, onClose }) => {
               <Input
                 placeholder="Speciality"
                 name="speciality"
-                onChange={handleChange}
-                mt={2}
-              />
-              <FormLabel mt={2}>E-mail</FormLabel>
-              <Input
-                placeholder="e-mail"
-                type={"email"}
-                name="email"
                 onChange={handleChange}
                 mt={2}
               />

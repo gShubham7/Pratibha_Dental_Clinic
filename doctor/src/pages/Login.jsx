@@ -12,7 +12,13 @@ import {
   AvatarGroup,
   useBreakpointValue,
   Icon,
+  useToast,
+  HStack,
 } from "@chakra-ui/react";
+import axios from "axios";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import Loader from "../components/Loader";
 
 const avatars = [
   {
@@ -39,6 +45,71 @@ const avatars = [
 
 const Login = () => {
   const breakPoint = useBreakpointValue({ base: "md", md: "lg" });
+  const breakPointNew = useBreakpointValue({ base: "44px", md: "60px" });
+  const [otpWindow, setOtpWindow] = useState(false);
+  const [creds, setCreds] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const navigate = useNavigate();
+  const toast = useToast();
+
+  const handleChange = (e) => {
+    setCreds(e.target.value);
+  };
+  const handleOTP = async () => {
+    if (creds === "") {
+      return toast({
+        title: "Field is Empty!",
+        position: "bottom-left",
+        status: "warning",
+        duration: 3000,
+        isClosable: true,
+      });
+    }
+    // setIsLoading(true);
+    try {
+      const { data } = await axios.post("http://localhost:8080/auth/get-otp", {
+        contact: creds,
+      });
+      setOtpWindow(true);
+      setIsLoading(false);
+    } catch (error) {
+      console.log(error.message);
+    }
+  };
+  const handleVerifyOTP = async () => {
+    try {
+      const { data } = await axios.post(
+        "http://localhost:8080/auth/verify-otp",
+        {
+          phoneOTP: creds,
+        }
+      );
+      localStorage.setItem("token", data);
+      toast({
+        title: "Logged In Successfully!",
+        position: "bottom-left",
+        status: "success",
+        duration: 3000,
+        isClosable: true,
+      });
+      navigate("/dashboard");
+    } catch (error) {
+      toast({
+        title: error,
+        position: "bottom-left",
+        status: "error",
+        duration: 3000,
+        isClosable: true,
+      });
+    }
+  };
+  if (isLoading) {
+    return (
+      <HStack h={"100vh"} justifyContent={"center"} alignItems={"center"}>
+        <Loader />;
+      </HStack>
+    );
+  }
   return (
     <Box position={"relative"}>
       <Container
@@ -100,8 +171,8 @@ const Login = () => {
               bg={"gray.800"}
               color={"white"}
               rounded={"full"}
-              minWidth={useBreakpointValue({ base: "44px", md: "60px" })}
-              minHeight={useBreakpointValue({ base: "44px", md: "60px" })}
+              minWidth={breakPointNew}
+              minHeight={breakPointNew}
               position={"relative"}
               _before={{
                 content: '""',
@@ -142,55 +213,76 @@ const Login = () => {
                 !
               </Text>
             </Heading>
-            <Text color={"gray.500"} fontSize={{ base: "sm", sm: "md" }}>
-              We’re looking for amazing engineers just like you! Become a part
-              of our rockstar engineering team and skyrocket your career!
-            </Text>
+            {otpWindow ? (
+              <Text color={"gray.500"} fontSize={{ base: "sm", sm: "md" }}>
+                We have sent code to your Phone
+              </Text>
+            ) : (
+              <Text color={"gray.500"} fontSize={{ base: "sm", sm: "md" }}>
+                We’re looking for amazing engineers just like you! Become a part
+                of our rockstar engineering team and skyrocket your career!
+              </Text>
+            )}
           </Stack>
-          <Box as={"form"} mt={10}>
-            <Stack spacing={4}>
-              <Input
-                placeholder="Firstname"
-                bg={"gray.100"}
-                border={0}
-                color={"gray.500"}
-                _placeholder={{
-                  color: "gray.500",
+          {otpWindow ? (
+            <Box as={"form"} mt={10}>
+              <Stack spacing={4}>
+                <Input
+                  placeholder="Enter OTP here"
+                  bg={"gray.100"}
+                  border={0}
+                  color={"gray.500"}
+                  _placeholder={{
+                    color: "gray.500",
+                  }}
+                  onChange={handleChange}
+                />
+              </Stack>
+              <Button
+                fontFamily={"heading"}
+                mt={8}
+                w={"full"}
+                bgGradient="linear(to-r, red.400,pink.400)"
+                color={"white"}
+                _hover={{
+                  bgGradient: "linear(to-r, red.400,pink.400)",
+                  boxShadow: "xl",
                 }}
-              />
-              <Input
-                placeholder="sample@gmail.com"
-                bg={"gray.100"}
-                border={0}
-                color={"gray.500"}
-                _placeholder={{
-                  color: "gray.500",
+                onClick={handleVerifyOTP}
+              >
+                Verify
+              </Button>
+            </Box>
+          ) : (
+            <Box as={"form"} mt={10}>
+              <Stack spacing={4}>
+                <Input
+                  placeholder="+91 1234567890"
+                  bg={"gray.100"}
+                  border={0}
+                  color={"gray.500"}
+                  _placeholder={{
+                    color: "gray.500",
+                  }}
+                  onChange={handleChange}
+                />
+              </Stack>
+              <Button
+                fontFamily={"heading"}
+                mt={8}
+                w={"full"}
+                bgGradient="linear(to-r, red.400,pink.400)"
+                color={"white"}
+                _hover={{
+                  bgGradient: "linear(to-r, red.400,pink.400)",
+                  boxShadow: "xl",
                 }}
-              />
-              <Input
-                placeholder="+91 1234567890"
-                bg={"gray.100"}
-                border={0}
-                color={"gray.500"}
-                _placeholder={{
-                  color: "gray.500",
-                }}
-              />          
-            </Stack>
-            <Button
-              fontFamily={"heading"}
-              mt={8}
-              w={"full"}
-              bgGradient="linear(to-r, red.400,pink.400)"
-              color={"white"}
-              _hover={{
-                bgGradient: "linear(to-r, red.400,pink.400)",
-                boxShadow: "xl",
-              }}
-            >
-              Submit
-            </Button>
-          </Box>
+                onClick={handleOTP}
+              >
+                GET OTP
+              </Button>
+            </Box>
+          )}
           form
         </Stack>
       </Container>

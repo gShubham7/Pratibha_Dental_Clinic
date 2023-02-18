@@ -1,21 +1,44 @@
 import { Heading, HStack, useToast, VStack } from "@chakra-ui/react";
+import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Button, FormControl, FormLabel, Input } from "@chakra-ui/react";
 import { useParams } from "react-router-dom";
+import Loader from "../components/Loader";
+
+const getDoctor = async (id) => {
+  const config = {
+    headers: {
+      authorization: localStorage.getItem("token"),
+    },
+  };
+  const { data } = await axios.get(
+    `http://localhost:8080/doctors/${id}`,
+    config
+  );
+  return data;
+};
 
 const EditDoctor = () => {
   const [doctor, setDoctor] = useState({});
   const toast = useToast();
   const { id } = useParams();
+  const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
-    // getSingleDoctor_apiCall
-  }, []);
+    setIsLoading(true);
+    fetchDoc();
+  }, [id]);
+
+  const fetchDoc = async () => {
+    const res = await getDoctor(id);
+    setDoctor(res[0]);
+    setIsLoading(false);
+  };
   const handleChange = (e) => {
     const { name, value } = e.target;
     setDoctor({ ...doctor, [name]: value });
   };
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if (Object.values(doctor).length < 5) {
       return toast({
         title: "All fields are required",
@@ -26,7 +49,42 @@ const EditDoctor = () => {
       });
     }
     // updateDoc_api Call
+    try {
+      const config = {
+        headers: {
+          authorization: localStorage.getItem("token"),
+        },
+      };
+      const { data } = await axios.patch(
+        `http://localhost:8080/doctors/${id}`,
+        doctor,
+        config
+      );
+      toast({
+        title: "Updated Successfully!",
+        position: "bottom-left",
+        status: "success",
+        duration: 3000,
+        isClosable: true,
+      });
+    } catch (error) {
+      toast({
+        title: "Something went wrong!",
+        position: "bottom-left",
+        status: "error",
+        duration: 3000,
+        isClosable: true,
+      });
+    }
   };
+
+  if (isLoading) {
+    return (
+      <HStack h={"100vh"} justifyContent={"center"} alignItems={"center"}>
+        <Loader />;
+      </HStack>
+    );
+  }
   return (
     <>
       <Heading>Edit Doctor Details</Heading>
@@ -58,15 +116,6 @@ const EditDoctor = () => {
             placeholder="Speciality"
             name="speciality"
             value={doctor.speciality}
-            onChange={handleChange}
-            mt={2}
-          />
-          <FormLabel mt={2}>E-mail</FormLabel>
-          <Input
-            placeholder="e-mail"
-            type={"email"}
-            name="email"
-            value={doctor.email}
             onChange={handleChange}
             mt={2}
           />
